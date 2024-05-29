@@ -83,10 +83,10 @@ author:
   name             : "Dong (Bruce) Wang"
   avatar           : "profile.png"
   bio              : "CS @Purdue"
-  cv               : "https://raw.githubusercontent.com/AABBCCDKG/dongwang.github.io/master/dongwang_Resume.pdf"
+  #cv               : "https://raw.githubusercontent.com/AABBCCDKG/dongwang.github.io/master/dongwang_Resume.pdf"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  #googlescholar    :  
   email            : "wang6213@purdue.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "www.linkedin.com/in/dong-bruce-wang-4463a62a8"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
