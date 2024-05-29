@@ -17,7 +17,7 @@ main:
   #  url: /year-archive/
     
   - title: "CV"
-  url: /files/dongwang_Resume.pdf
+    url: /files/dongwang_Resume.pdf
     
   #- title: "Guide"
    # url: /markdown/
