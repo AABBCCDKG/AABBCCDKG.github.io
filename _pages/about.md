@@ -21,9 +21,7 @@ I led a project titled "[Video Prediction through Physical Laws](https://github.
 
 I joined the [Vertically Integrated Program](https://engineering.purdue.edu/VIP) from January 2024 to May 2024, where I worked with the Purdue Aerial Robotics Team under the IEEE chapter's PART committee. Our focus was on developing autonomous UAV platforms incorporating computer vision and machine learning applications.
 
-Before transferring to Purdue University, I studied Communication Engineering at Northeastern University (China) for one year and a half. During that time, I had the privilege of being mentored by Professor Xiaoyi Luo, starting in March 2023, to dedicate myself to a research project titled "Water Treatment System for Saline Bores." I served as the group leader and achieved the highest evaluation.
-
-I also had the honor of serving as a Teaching Assistant for the Network Fundamentals course under the guidance of [Dr. Peng Han](https://graduate.neuq.edu.cn/info/1016/4552.htm) in Fall 2023.
+Before transferring to Purdue University, I studied Communication Engineering at Northeastern University (China) for one year and a half. There, I had the honor of serving as a Teaching Assistant for the Network Fundamentals course under the guidance of [Dr. Peng Han](https://graduate.neuq.edu.cn/info/1016/4552.htm) in Fall 2023.
 
 So far, I have attempted some interesting personal projects, such as:
 
