@@ -17,9 +17,13 @@ Hi, I am currently a junior undergraduate student pursuing a Bachelor’s Degree
 
 My primary research interests are in Machine Learning Systems (MLSys). I am passionate about contributing to the advancement of technology and innovation through in-depth research in this field. I am actively seeking a Research Assistant (RA) position and plan to apply for a Ph.D. program starting in 2026.[CV](_pages/dong_resume.pdf)
 
-This summer, I led a project titled "[Video Prediction through Physical Laws](https://github.com/AABBCCDKG/Video_prediction_through_physical_laws)" under the guidance of Ph.D. student [Max](https://www.cs.purdue.edu/people/graduate-students/jacobs57.html) and Assistant Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). Predicting 2D video sequences is essential for understanding real-world dynamics, but existing models often need large datasets and struggle with complex motions, especially with limited data. We present a framework for predicting object motion based on physical laws. We identify objects' position information and fits position functions to derive dynamic parameters. These parameters are used in a physics engine to simulate object motion. Neural networks then map textures, producing the final predicted image. By leveraging known physical laws, our framework reduces the reliance on large datasets and enhances the model’s ability to predict complex and abrupt motions.
+I led a project titled "[Video Prediction through Physical Laws](https://github.com/AABBCCDKG/Video_prediction_through_physical_laws)" under the guidance of Ph.D. student [Max](https://www.cs.purdue.edu/people/graduate-students/jacobs57.html) and Assistant Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/) during the summer 2024. Existing models for prediction often need large datasets and struggle with complex motions, especially with limited data. We present a framework for predicting object motion by leveraging known physical laws to reduce the reliance on large datasets and enhances the model’s ability to predict complex and abrupt motions.
 
 I joined the [Vertically Integrated Program](https://engineering.purdue.edu/VIP) from January 2024 to May 2024, where I worked with the Purdue Aerial Robotics Team under the IEEE chapter's PART committee. Our focus was on developing autonomous UAV platforms incorporating computer vision and machine learning applications.
+
+Before transferring to Purdue University, I studied Communication Engineering at Northeastern University (China) for one year and a half. During that time, I had the privilege of being mentored by Professor Xiaoyi Luo, starting in March 2023, to dedicate myself to a research project titled "Water Treatment System for Saline Bores." I served as the group leader and achieved the highest evaluation.
+
+I also had the honor of serving as a Teaching Assistant for the Network Fundamentals course under the guidance of [Dr. Peng Han](https://graduate.neuq.edu.cn/info/1016/4552.htm) in Fall 2023.
 
 So far, I have attempted some interesting personal projects, such as:
 
@@ -28,6 +32,3 @@ So far, I have attempted some interesting personal projects, such as:
 - [clip_on_sketch](https://github.com/AABBCCDKG/clip_on_sketch): Fine-tuning the CLIP model on a custom dataset of sketches, each labeled with a specific category or prompt.
 - [gmaillm](https://github.com/AABBCCDKG/gmaillm): Using LLM to interact with emails.
 
-Before transferring to Purdue University, I studied Communication Engineering at Northeastern University (China) for one year and a half. During that time, I had the privilege of being mentored by Professor Xiaoyi Luo, starting in March 2023, to dedicate myself to a research project titled "Water Treatment System for Saline Bores." I served as the group leader and achieved the highest evaluation.
-
-I also had the honor of serving as a Teaching Assistant for the Network Fundamentals course under the guidance of [Dr. Peng Han](https://graduate.neuq.edu.cn/info/1016/4552.htm) in Fall 2023.
