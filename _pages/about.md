@@ -7,15 +7,19 @@ profile:
   align: right
   image: personal.jpg
   image_circular: true # crops the image to make it circular
+  more_info: >
+    <p>Purdue University, 2024.1 - 2025.8(Excepted)</p>
+    <p>Northeastern University (CN), 2022.9 - 2023.12</p>
+
 
 
 news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am currently a junior undergraduate student pursuing a Bachelor’s Degree in Computer Science at the College of Science, Purdue University, West Lafayette.
+Hi, I am a junior undergraduate student pursuing a Bachelor’s Degree in Computer Science at the College of Science, Purdue University, West Lafayette.
 
-My primary research interests are in Machine Learning Systems (MLSys). I am passionate about contributing to the advancement of technology and innovation through in-depth research in this field. I am actively seeking a Research Assistant (RA) position and plan to apply for a Ph.D. program starting in 2026. [CV](https://aabbccdkg.github.io/dong_resume.pdf)
+My primary research interests are in Machine Learning Systems (MLSys). I am actively seeking a Research Assistant (RA) position and plan to apply for a Ph.D. program starting in 2026. [CV](https://aabbccdkg.github.io/dong_resume.pdf)
 
 I led a project titled "[Video Prediction through Physical Laws](https://github.com/AABBCCDKG/Video_prediction_through_physical_laws)" under the guidance of Ph.D. student [Max](https://www.cs.purdue.edu/people/graduate-students/jacobs57.html) and Assistant Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/) during the summer 2024. Existing models for prediction often need large datasets and struggle with complex motions, especially with limited data. We present a framework for predicting object motion by leveraging known physical laws to reduce the reliance on large datasets and enhances the model’s ability to predict complex and abrupt motions.
 
