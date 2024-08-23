@@ -13,9 +13,9 @@ News: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am currently a Junior undergraduate student pursuing a bachelor's degree in Computer Science at the College of Science, Purdue University West Lafayette.
+Hi, I am currently a junior undergraduate student pursuing a Bachelor’s degree in Computer Science at the College of Science, Purdue University, West Lafayette
 
-My research interests primarily focus on MLSys. I aspire to contribute to the advancement of technology and innovation in the future through my in-depth research in this field.
+My primary research interests are in Machine Learning Systems (MLSys). I am passionate about contributing to the advancement of technology and innovation through in-depth research in this field. I am actively seeking a Research Assistant (RA) position and plan to apply for a Ph.D. program starting in 2026.
 
 This summer, I led a project titled "[Video Prediction through Physical Laws](https://github.com/AABBCCDKG/Video_prediction_through_physical_laws)" under the guidance of PhD student [Max](https://www.cs.purdue.edu/people/graduate-students/jacobs57.html) and Assistant Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). Predicting 2D video sequences is essential for understanding real-world dynamics, but existing models often need large datasets and struggle with complex motions, especially with limited data. We present a framework for predicting object motion based on physical laws. We identify objects' position information and fits position functions to derive dynamic parameters. These parameters are used in a physics engine to simulate object motion. Neural networks then map textures, producing the final predicted image. By leveraging known physical laws, our framework reduces the reliance on large datasets and enhances the model’s ability to predict complex and abrupt motions.
 
