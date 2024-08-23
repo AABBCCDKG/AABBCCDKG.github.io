@@ -5,19 +5,15 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: personal.jpg
+  image_circular: true # crops the image to make it circular
+
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently a rising sophomore undergraduate student pursuing a bachelor's degree in Computer Science at the College of Science, Purdue University West Lafayette.
+Hi, I am currently a Junior undergraduate student pursuing a bachelor's degree in Computer Science at the College of Science, Purdue University West Lafayette.
 
 My research interests primarily focus on MLSys. I aspire to contribute to the advancement of technology and innovation in the future through my in-depth research in this field.
 
