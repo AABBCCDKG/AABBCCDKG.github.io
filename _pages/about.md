@@ -19,7 +19,7 @@ Hi, I am a junior undergraduate student pursuing a Bachelor’s Degree in Comput
 
 My primary research interests are in Machine Learning Systems (MLSys). I am actively seeking a Research Assistant (RA) position and plan to apply for a Ph.D. program starting in 2026. 
 
-My resume is available here[CV](https://aabbccdkg.github.io/dong_resume.pdf)
+My resume is available [here](https://aabbccdkg.github.io/dong_resume.pdf)
 
 I led a project titled "[Video Prediction through Physical Laws](https://github.com/AABBCCDKG/Video_prediction_through_physical_laws)" under the guidance of Ph.D. student [Max](https://www.cs.purdue.edu/people/graduate-students/jacobs57.html) and Assistant Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/) during the summer 2024. Existing models for prediction often need large datasets and struggle with complex motions, especially with limited data. We present a framework for predicting object motion by leveraging known physical laws to reduce the reliance on large datasets and enhances the model’s ability to predict complex and abrupt motions.
 
