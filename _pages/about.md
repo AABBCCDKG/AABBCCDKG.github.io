@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 
 profile:
@@ -13,7 +13,7 @@ news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am currently a junior undergraduate student pursuing a Bachelor’s degree in Computer Science at the College of Science, Purdue University, West Lafayette
+Hi, I am currently a junior undergraduate student pursuing a Bachelor’s Degree in Computer Science at the College of Science, Purdue University, West Lafayette.
 
 My primary research interests are in Machine Learning Systems (MLSys). I am passionate about contributing to the advancement of technology and innovation through in-depth research in this field. I am actively seeking a Research Assistant (RA) position and plan to apply for a Ph.D. program starting in 2026.
 
