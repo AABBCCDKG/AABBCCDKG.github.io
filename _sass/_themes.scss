@@ -126,6 +126,11 @@ html[data-theme-setting="dark"] {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
   }
+
+  #custom-name-style {
+    color: $cyan-color;  // 使用你定义的蓝色变量
+    font-weight: bold;  // 加粗字体
+  }
 }
 
 html[data-theme-setting="light"] {
@@ -141,5 +146,10 @@ html[data-theme-setting="light"] {
     padding-left: 10px;
     padding-top: 12px;
     display: block;
+  }
+  
+  #custom-name-style {
+    color: $cyan-color;  // 使用你定义的蓝色变量
+    font-weight: bold;  // 加粗字体
   }
 }
