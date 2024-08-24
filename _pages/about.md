@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi, I am a junior undergraduate student pursuing a Bachelor’s Degree in Computer Science at the College of Science, Purdue University, West Lafayette. 
 
-My primary research interests are in Machine Learning Systems (MLSys). I am actively seeking a Research Assistant (RA) position and plan to apply for a Ph.D. program starting in 2026. 
+My primary research interests are in Machine Learning Systems (MLSys) and Computer Architecture. I am actively seeking a Research Assistant (RA) position and plan to apply for a Ph.D. program starting in 2026. 
 
 My resume is available [here](https://aabbccdkg.github.io/dong_resume.pdf)
 
