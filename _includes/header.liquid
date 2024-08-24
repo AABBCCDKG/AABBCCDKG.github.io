@@ -2,11 +2,15 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      <a class="navbar-brand" href="{{ site.baseurl }}/" style="font-weight: bold; color: #2698ba; margin-right: 20px;">
+        Dong Wang
+      </a>
+
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
-              <span class="font-weight-bold" style="color: #2698ba !important;">
+              <span class="font-weight-bold">
                 {{- site.first_name -}}
               </span>
             {% endif %}
