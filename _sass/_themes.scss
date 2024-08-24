@@ -127,10 +127,6 @@ html[data-theme-setting="dark"] {
     background: var(--global-back-to-top-bg-color);
   }
 
-  #custom-name-style {
-    color: var(--global-footer-link-color);  // 使用你定义的蓝色变量
-    font-weight: bold;  // 加粗字体
-  }
 }
 
 html[data-theme-setting="light"] {
@@ -148,8 +144,4 @@ html[data-theme-setting="light"] {
     display: block;
   }
 
-  #custom-name-style {
-    color: var(--global-footer-link-color);  // 使用你定义的蓝色变量
-    font-weight: bold;  // 加粗字体
-  }
 }
