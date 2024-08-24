@@ -48,3 +48,9 @@ $back-to-top-right: 30px;
 $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
+
+
+.custom-name-style {
+    color: $cyan-color;  // 使用你定义的蓝色变量
+    font-weight: bold;  // 加粗字体
+  }
