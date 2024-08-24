@@ -3,8 +3,20 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       <a class="navbar-brand" href="{{ site.baseurl }}/" style="font-weight: bold; color: #2698ba; margin-right: 20px;">
-        Dong Wang
+        Dong
       </a>
+      <a class="navbar-brand" href="{{ site.baseurl }}/" style="font-weight: bold; color: #000000; margin-right: 20px;">
+        WANG
+      </a>
+      
+      {% if site.enable_darkmode %}
+        <a class="navbar-brand" href="{{ site.baseurl }}/" style="font-weight: bold; color: #2698ba; margin-right: 20px;">
+          Dong
+        </a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/" style="font-weight: bold; color: #ffffff; margin-right: 20px;">
+          WANG
+        </a>     
+      {% endif %}
 
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
