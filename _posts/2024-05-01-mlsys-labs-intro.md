@@ -13,7 +13,7 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 ## [Google Brain](https://research.google/)
 
 ## [Microsoft Research (MSR)](https://www.microsoft.com/en-us/research/)
-[Fast and Efficient Infrastructure for Distributed Deep Learning](https://www.microsoft.com/en-us/research/project/fiddle/)
+[Fast and Efficient Infrastructure for Distributed Deep Learning (Fiddle)](https://www.microsoft.com/en-us/research/project/fiddle/)
 
 ## [Catalyst (Carnegie Mellon University)](https://catalyst.cs.cmu.edu/)
 [Eric Xing: ](https://www.cs.cmu.edu/~epxing/)
