@@ -16,7 +16,7 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 [Fast and Efficient Infrastructure for Distributed Deep Learning (Fiddle)](https://www.microsoft.com/en-us/research/project/fiddle/)
 
 ## [Catalyst (Carnegie Mellon University)](https://catalyst.cs.cmu.edu/)
-[Eric Xing: ](https://www.cs.cmu.edu/~epxing/)
+[Eric Xing: ](https://www.cs.cmu.edu/~epxing/) Prof. Eric is a student of [Prof. Michael I. Jordan](https://people.eecs.berkeley.edu/~jordan/).
 
 [Tianqi Chen: ](https://tqchen.com/)
 
