@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Top Research Labs in Machine Learning Systems (MLSys)🔬
+title: Top Research Labs in Machine Learning Systems (MLSys) 🔬
 date: 2024-05-01 00:32:13
 description: A brief introduction to top-tier MLSys labs for Ph.D. applicants.
 tags: MLSys-Learning-Journal
