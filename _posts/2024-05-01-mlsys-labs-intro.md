@@ -17,7 +17,7 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 ## [Catalyst (Carnegie Mellon University)](https://catalyst.cs.cmu.edu/)
 [Eric Xing: ](https://www.cs.cmu.edu/~epxing/)
 
-[Tianqi Chen:](https://tqchen.com/)[TVM](https://www.usenix.org/conference/osdi18/presentation/chen), [XGBoost](https://arxiv.org/abs/1603.02754), [MXNet](https://www.arxiv.org/abs/1512.01274).
+[Tianqi Chen: ](https://tqchen.com/)[TVM](https://www.usenix.org/conference/osdi18/presentation/chen), [XGBoost](https://arxiv.org/abs/1603.02754), [MXNet](https://www.arxiv.org/abs/1512.01274).
 
 [Zhihao Jia: ](https://www.cs.cmu.edu/~zhihaoj2/)[TASO](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cs.stanford.edu/~padon/taso-sosp19.pdf). Note: Prof. Zhihao Jia seems to be more focused on system for LLM.
 
