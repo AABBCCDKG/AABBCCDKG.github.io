@@ -18,7 +18,13 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 ## [Catalyst (Carnegie Mellon University)](https://catalyst.cs.cmu.edu/)
 [Eric Xing: ](https://www.cs.cmu.edu/~epxing/)
 
-[Tianqi Chen: ](https://tqchen.com/)[TVM](https://www.usenix.org/conference/osdi18/presentation/chen), [XGBoost](https://arxiv.org/abs/1603.02754), [MXNet](https://www.arxiv.org/abs/1512.01274).
+[Tianqi Chen: ](https://tqchen.com/)
+
+* [TVM: ](https://tvm.apache.org/) TVM is an open-source framework for optimizing and deploying deep learning models, with its name derived from "Tensor Virtual Machine." Its primary goal is to optimize and compile deep learning models in an automated manner, enabling efficient execution on various hardware platforms such as CPUs, GPUs, FPGAs, and specialized AI accelerators.
+
+* [XGBoost: ](https://arxiv.org/abs/1603.02754)
+
+* [MXNet: ](https://www.arxiv.org/abs/1512.01274)
 
 [Zhihao Jia: ](https://www.cs.cmu.edu/~zhihaoj2/)[TASO](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cs.stanford.edu/~padon/taso-sosp19.pdf). Note: Prof. Zhihao Jia seems to be more focused on system for LLM.
 
@@ -50,9 +56,10 @@ Most recent project: [Ray](https://rise.cs.berkeley.edu/projects/ray/)
 Professors at RISE Lab have offered a course called [AI for Systems and Systems for AI (CS294)](https://ucbrise.github.io/cs294-ai-sys-fa19/)
 
 ## [System Lab (University of Washington)](https://www.cs.washington.edu/research/systems)
-[Luis Ceze: ](https://homes.cs.washington.edu/~luisceze/) 
+[Luis Ceze: ](https://homes.cs.washington.edu/~luisceze/) Prof. Luis Ceze focuses on Programming Language and Computer Architecture.
+* [TVM: ](https://tvm.apache.org/) TVM is an open-source framework for optimizing and deploying deep learning models, with its name derived from "Tensor Virtual Machine." Its primary goal is to optimize and compile deep learning models in an automated manner, enabling efficient execution on various hardware platforms such as CPUs, GPUs, FPGAs, and specialized AI accelerators
 
-[Arvind Krishnamurthy: ](https://www.cs.washington.edu/people/faculty/arvind)
+[Arvind Krishnamurthy: ](https://www.cs.washington.edu/people/faculty/arvind) Prof. Arvind Krishnamurthy primarily focuses on computer networks. His work involves applying networking technology to address challenges in distributed machine learning.
 
 ## [Sample (University of Washington)](https://sampl.cs.washington.edu/)
 
