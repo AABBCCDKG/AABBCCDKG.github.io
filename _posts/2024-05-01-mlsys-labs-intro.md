@@ -8,7 +8,7 @@ categories: MLSys-Learning-Journal
 tabs: true
 ---
 This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a primary focus on those in the United States and mainland China. If there are any omissions, please feel free to [contact me](mailto:wangdong0502@gmail.com) to add them.
-# United States 🇺🇸
+# 🇺🇸 United States 
 
 ## [Google Brain](https://research.google/)
 
@@ -81,7 +81,7 @@ Professors at RISE Lab have offered a course called [AI for Systems and Systems 
 * [Gennady Pekhimenko: ](https://www.cs.toronto.edu/~pekhimenko/)
 
 
-# China 🇨🇳
+# 🇨🇳 China 
 In mainland China, it seems that most of the work in MLSys is being don in companies. However, some strong teams in distributed systems often also work on MLSys to some extent, such as [IPADS (Shanghai Jiaotong Univeristy)](https://ipads.se.sjtu.edu.cn/zh/index.html).
 
 ## [Microsoft Research Lab(Asia)](https://www.microsoft.com/en-us/research/group/systems-and-networking-research-group-asia/)
@@ -98,7 +98,7 @@ More related to Arch
 ## [IPADS(Shanghai Jiaotong Univeristy)](https://ipads.se.sjtu.edu.cn/zh/index.html)
 The best System Lab in Mainland China, and now is also working on some MLSys projects.
 
-# Appendix 🌟
+# 🌟 Appendix 
 
 ## Some people worth following on Zhihu
 * [Tianqi Chen: ](https://www.zhihu.com/people/crowowrk) Prof. Tianqi Chen is an Assistant Professor at Carnegie Mellon University. He helps run the [Catalyst Group](https://catalyst.cs.cmu.edu/).
