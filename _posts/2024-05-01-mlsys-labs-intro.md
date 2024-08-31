@@ -102,3 +102,5 @@ The best System Lab in Mainland China, and now is also working on some MLSys pro
 [Tianqi Chen: ](https://www.zhihu.com/people/crowowrk) Prof. Tianqi Chen is an Assistant Professor at Carnegie Mellon University. He helps run the [Catalyst Group](https://catalyst.cs.cmu.edu/).
 
 [Huaizheng Zhang: ](https://www.zhihu.com/people/zhanghuaizheng) Dr. Huaizheng Zhang's [AI-System-School](https://github.com/HuaizhengZhang/AI-System-School) is an open project aimed at collecting and organizing research papers, tools, and resources related to MLSys, Large Language Models (LLM), and Generative AI (GenAI). It provides researchers and engineers with a systematic learning path and practical guide to help them better understand and apply these cutting-edge technologies. Here is his [personal website](https://huaizheng.xyz/).
+
+[Yue Zhao: ](https://www.zhihu.com/people/breaknever) Prof. Yue Zhang is currently an Assistant Professor at the University of Southern California. He was also a student of Prof. Zhihao Jia. Here is his [personal website](https://github.com/yzhao062).
