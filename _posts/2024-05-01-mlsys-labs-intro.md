@@ -22,9 +22,9 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 
 * [TVM: ](https://tvm.apache.org/) TVM is an open-source framework for optimizing and deploying deep learning models, with its name derived from "Tensor Virtual Machine." Its primary goal is to optimize and compile deep learning models in an automated manner, enabling efficient execution on various hardware platforms such as CPUs, GPUs, FPGAs, and specialized AI accelerators.
 
-* [XGBoost: ](https://arxiv.org/abs/1603.02754)
+* [XGBoost: ](https://xgboost.readthedocs.io/en/stable/)XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The same code runs on major distributed environment (Hadoop, SGE, MPI) and can solve problems beyond billions of examples.
 
-* [MXNet: ](https://www.arxiv.org/abs/1512.01274)
+* [MXNet: ](https://github.com/apache/mxnet)Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It allows you to mix symbolic and imperative programming to maximize efficiency and productivity. At its core, MXNet contains a dynamic dependency scheduler that automatically parallelizes both symbolic and imperative operations on the fly. A graph optimization layer on top of that makes symbolic execution fast and memory efficient. MXNet is portable and lightweight, scalable to many GPUs and machines.
 
 [Zhihao Jia: ](https://www.cs.cmu.edu/~zhihaoj2/) Prof. Zhihao Jia is a student of [Prof. Matei Zaharia (now at UC Berkeley)](https://people.eecs.berkeley.edu/~matei/). He seems to be more focused on system for LLM.
 * [TASO: ](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cs.stanford.edu/~padon/taso-sosp19.pdf)
