@@ -26,8 +26,9 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 
 * [MXNet: ](https://www.arxiv.org/abs/1512.01274)
 
-[Zhihao Jia: ](https://www.cs.cmu.edu/~zhihaoj2/)[TASO](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cs.stanford.edu/~padon/taso-sosp19.pdf). Note: Prof. Zhihao Jia seems to be more focused on system for LLM.
-
+[Zhihao Jia: ](https://www.cs.cmu.edu/~zhihaoj2/) Prof. Zhihao Jia is the student of [Prof. Matei Zaharia (now in Cal): ](https://people.eecs.berkeley.edu/~matei/). He seems to be more focused on system for LLM.
+* [TASO: ](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cs.stanford.edu/~padon/taso-sosp19.pdf)
+* [Flexflow: ](https://flexflow.ai/)
 
 ## [DSAIL (MIT)](https://dsail.csail.mit.edu/)
 [Song Han: ](https://hanlab.mit.edu/songhan)Pruning and Sparse related work. Prof. Song Han seems to be working on algorithm modifications and hardware, and he's not really focused on TinyML anymore. Now he's working on diffusion models and LLM models.
@@ -59,7 +60,7 @@ Professors at RISE Lab have offered a course called [AI for Systems and Systems 
 [Luis Ceze: ](https://homes.cs.washington.edu/~luisceze/) Prof. Luis Ceze focuses on Programming Language and Computer Architecture.
 * [TVM: ](https://tvm.apache.org/) TVM is an open-source framework for optimizing and deploying deep learning models, with its name derived from "Tensor Virtual Machine." Its primary goal is to optimize and compile deep learning models in an automated manner, enabling efficient execution on various hardware platforms such as CPUs, GPUs, FPGAs, and specialized AI accelerators
 
-[Arvind Krishnamurthy: ](https://www.cs.washington.edu/people/faculty/arvind) Prof. Arvind Krishnamurthy primarily focuses on computer networks. His work involves applying networking technology to address challenges in distributed machine learning.
+[Arvind Krishnamurthy: ](https://www.cs.washington.edu/people/faculty/arvind) Prof. Arvind Krishnamurthy primarily focuses on computer networks. His work involves applying networking technology to address challenges in distributed machine learning. So there is always cutting-edge support in the field of networking.
 
 ## [Sample (University of Washington)](https://sampl.cs.washington.edu/)
 
