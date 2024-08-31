@@ -57,7 +57,7 @@ Professors at RISE Lab have offered a course called [AI for Systems and Systems 
 ## [Sample (University of Washington)](https://sampl.cs.washington.edu/)
 
 ## [SymbioticLab (University of Michigan, Ann Arbor)](https://symbioticlab.org/)
-[Mosharaf Chowdhury (the academic leader): ](https://www.mosharaf.com/) He offers the course [Systems for AI (EECS598)](https://github.com/mosharaf/eecs598/tree/w21-ai)
+[Mosharaf Chowdhury (the academic leader): ](https://www.mosharaf.com/) Prof. Mosharaf is the student of Prof. [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). He offers the course [Systems for AI (EECS598)](https://github.com/mosharaf/eecs598/tree/w21-ai)
 
 
 ## [System Group (New York University)](http://www.news.cs.nyu.edu/)
