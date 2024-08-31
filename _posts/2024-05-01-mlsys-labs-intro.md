@@ -13,6 +13,7 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 ## [Google Brain](https://research.google/)
 
 ## [Microsoft Research (MSR)](https://www.microsoft.com/en-us/research/)
+[Fast and Efficient Infrastructure for Distributed Deep Learning](https://www.microsoft.com/en-us/research/project/fiddle/)
 
 ## [Catalyst (Carnegie Mellon University)](https://catalyst.cs.cmu.edu/)
 [Eric Xing: ](https://www.cs.cmu.edu/~epxing/)
@@ -37,7 +38,7 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 [Matei Zaharia (now in Cal): ](https://people.eecs.berkeley.edu/~matei/) Matei Zaharia (Stanford & Databricks) is highly respected for building [Apache Spark](https://spark.apache.org/) (one of the most widely used frameworks for distributed data processing, and co-started other datacenter software such as Apache Mesos and Spark Streaming) from scratch to a billion-dollar level. He serves as a PC and chair for major conferences. PipeDream, TASO, and FlexFlow is the project built by his Ph.D. student.Zhihao jia is his Ph.D. student. and  his students' projects like PipeDream, TASO by Zhihao Jia, and FlexFlow. One standout aspect of his research is that it addresses real system needs, making it impactful and practical. Not all his work prioritizes performance; for instance, one recent paper discusses offloading computation to GPUs using annotation for ease of use. Overall, pursuing a PhD under his guidance would likely lead to significant influence in the industry.
 
 ## [Hazy Research (Stanford AI Lab)](https://hazyresearch.stanford.edu/index)
-This research group will focus on MLSys and also organized a seminar series called [Stanford MLSys Seminar Series](https://mlsys.stanford.edu/)
+This research group focuses on MLSys and also organized a seminar series called [Stanford MLSys Seminar Series](https://mlsys.stanford.edu/)
 
 ## [RISELab (University of California, Berkeley)](https://rise.cs.berkeley.edu/)
 [Ion Stoica: ](https://people.eecs.berkeley.edu/~istoica/) 
