@@ -64,6 +64,7 @@ Professors at RISE Lab have offered a course called [AI for Systems and Systems 
 [Jinyang Li: ](https://cims.nyu.edu/people/profiles/LI_Jinyang.html) She is the Ph.D. advisor of [Minjie Wang](https://jermainewang.github.io/)(the author of DGL)
 
 ## [Shivaram Venkataraman Research Group (University of Wisconsin, Madison)](https://shivaram.org/)
+[Shivaram Venkataraman: ](https://shivaram.org/). Prof. Shivaram is the student of Prof. [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). He understands more about machine learning and less about systems. The papers he published is not too many, but the workload is substantial.
 
 
 ## [EcoSystem (University of Toronto)](https://www.cs.toronto.edu/ecosystem/)
