@@ -26,7 +26,7 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 
 * [MXNet: ](https://www.arxiv.org/abs/1512.01274)
 
-[Zhihao Jia: ](https://www.cs.cmu.edu/~zhihaoj2/) Prof. Zhihao Jia is the student of [Prof. Matei Zaharia (now in Cal): ](https://people.eecs.berkeley.edu/~matei/). He seems to be more focused on system for LLM.
+[Zhihao Jia: ](https://www.cs.cmu.edu/~zhihaoj2/) Prof. Zhihao Jia is a student of [Prof. Matei Zaharia (now at UC Berkeley)](https://people.eecs.berkeley.edu/~matei/). He seems to be more focused on system for LLM.
 * [TASO: ](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cs.stanford.edu/~padon/taso-sosp19.pdf)
 * [Flexflow: ](https://flexflow.ai/)
 
@@ -42,7 +42,7 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 [Saman Amarasinghe: ](https://www.csail.mit.edu/person/saman-amarasinghe)[Halide](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://people.csail.mit.edu/jrk/halide-pldi13.pdf), [TACO](https://tacos.libraries.mit.edu/).
 
 ## [Stanford DAWN Project](https://dawn.cs.stanford.edu/)
-[Matei Zaharia (now in Cal): ](https://people.eecs.berkeley.edu/~matei/) Matei Zaharia (Stanford & Databricks) is highly respected for building [Apache Spark](https://spark.apache.org/) (one of the most widely used frameworks for distributed data processing, and co-started other datacenter software such as Apache Mesos and Spark Streaming) from scratch to a billion-dollar level. He serves as a PC and chair for major conferences. PipeDream, TASO, and FlexFlow is the project built by his Ph.D. student.Zhihao jia is his Ph.D. student. and  his students' projects like PipeDream, TASO by Zhihao Jia, and FlexFlow. One standout aspect of his research is that it addresses real system needs, making it impactful and practical. Not all his work prioritizes performance; for instance, one recent paper discusses offloading computation to GPUs using annotation for ease of use. Overall, pursuing a PhD under his guidance would likely lead to significant influence in the industry.
+[Matei Zaharia (now at UC Berkeley): ](https://people.eecs.berkeley.edu/~matei/) Matei Zaharia (Stanford & Databricks) is highly respected for building [Apache Spark](https://spark.apache.org/) (one of the most widely used frameworks for distributed data processing, and co-started other datacenter software such as Apache Mesos and Spark Streaming) from scratch to a billion-dollar level. He serves as a PC and chair for major conferences. PipeDream, TASO, and FlexFlow is the project built by his Ph.D. student.Zhihao jia is his Ph.D. student. and  his students' projects like PipeDream, TASO by Zhihao Jia, and FlexFlow. One standout aspect of his research is that it addresses real system needs, making it impactful and practical. Not all his work prioritizes performance; for instance, one recent paper discusses offloading computation to GPUs using annotation for ease of use. Overall, pursuing a PhD under his guidance would likely lead to significant influence in the industry.
 
 ## [Hazy Research (Stanford AI Lab)](https://hazyresearch.stanford.edu/index)
 This research group focuses on MLSys and also organized a seminar series called [Stanford MLSys Seminar Series](https://mlsys.stanford.edu/)
@@ -99,6 +99,6 @@ The best System Lab in Mainland China, and now is also working on some MLSys pro
 # Appendix
 
 ## Some people worth following on Zhihu
-[Tianqi Chen: ](https://www.zhihu.com/people/crowowrk) Prof. Tianqi Chen is an Assistant Professor at Carnegie Mellon University . He help run the [Catalyst Group](https://catalyst.cs.cmu.edu/).
+[Tianqi Chen: ](https://www.zhihu.com/people/crowowrk) Prof. Tianqi Chen is an Assistant Professor at Carnegie Mellon University. He helps run the [Catalyst Group](https://catalyst.cs.cmu.edu/).
 
 [Huaizheng Zhang: ](https://www.zhihu.com/people/zhanghuaizheng) Dr. Huaizheng Zhang's [AI-System-School](https://github.com/HuaizhengZhang/AI-System-School) is an open project aimed at collecting and organizing research papers, tools, and resources related to MLSys, Large Language Models (LLM), and Generative AI (GenAI). It provides researchers and engineers with a systematic learning path and practical guide to help them better understand and apply these cutting-edge technologies. Here is his [personal website](https://huaizheng.xyz/).
