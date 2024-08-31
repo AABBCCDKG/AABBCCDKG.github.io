@@ -41,13 +41,13 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 
 * [Saman Amarasinghe: ](https://www.csail.mit.edu/person/saman-amarasinghe)
     * [Halide](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://people.csail.mit.edu/jrk/halide-pldi13.pdf)
-    * [TACO](https://tacos.libraries.mit.edu/).
+    * [TACO](https://tacos.libraries.mit.edu/)
 
 ## [Stanford DAWN Project](https://dawn.cs.stanford.edu/)
 * [Matei Zaharia (now at UC Berkeley): ](https://people.eecs.berkeley.edu/~matei/) Matei Zaharia (Stanford & Databricks) is highly respected for building [Apache Spark](https://spark.apache.org/) (one of the most widely used frameworks for distributed data processing, and co-started other datacenter software such as Apache Mesos and Spark Streaming) from scratch to a billion-dollar level. He serves as a PC and chair for major conferences. PipeDream, TASO, and FlexFlow is the project built by his Ph.D. student.Zhihao jia is his Ph.D. student. and  his students' projects like PipeDream, TASO by Zhihao Jia, and FlexFlow. One standout aspect of his research is that it addresses real system needs, making it impactful and practical. Not all his work prioritizes performance; for instance, one recent paper discusses offloading computation to GPUs using annotation for ease of use. Overall, pursuing a PhD under his guidance would likely lead to significant influence in the industry.
 
 ## [Hazy Research (Stanford AI Lab)](https://hazyresearch.stanford.edu/index)
-This research group focuses on MLSys and also organized a seminar series called [Stanford MLSys Seminar Series](https://mlsys.stanford.edu/)
+This research group focuses on MLSys and also organized a seminar series called [Stanford MLSys Seminar Series](https://mlsys.stanford.edu/).
 
 ## [RISELab (University of California, Berkeley)](https://rise.cs.berkeley.edu/)
 * [Ion Stoica: ](https://people.eecs.berkeley.edu/~istoica/) 
@@ -56,22 +56,22 @@ This research group focuses on MLSys and also organized a seminar series called 
 
 Most recent project: [Ray](https://rise.cs.berkeley.edu/projects/ray/)
 
-Professors at RISE Lab have offered a course called [AI for Systems and Systems for AI (CS294)](https://ucbrise.github.io/cs294-ai-sys-fa19/)
+Professors at RISE Lab have offered a course called [AI for Systems and Systems for AI (CS294)](https://ucbrise.github.io/cs294-ai-sys-fa19/).
 
 ## [System Lab (University of Washington)](https://www.cs.washington.edu/research/systems)
 * [Luis Ceze: ](https://homes.cs.washington.edu/~luisceze/) Prof. Luis Ceze focuses on Programming Language and Computer Architecture.
-    * [TVM: ](https://tvm.apache.org/) TVM is an open-source framework for optimizing and deploying deep learning models, with its name derived from "Tensor Virtual Machine." Its primary goal is to optimize and compile deep learning models in an automated manner, enabling efficient execution on various hardware platforms such as CPUs, GPUs, FPGAs, and specialized AI accelerators
+    * [TVM: ](https://tvm.apache.org/) TVM is an open-source framework for optimizing and deploying deep learning models, with its name derived from "Tensor Virtual Machine." Its primary goal is to optimize and compile deep learning models in an automated manner, enabling efficient execution on various hardware platforms such as CPUs, GPUs, FPGAs, and specialized AI accelerators.
 
 * [Arvind Krishnamurthy: ](https://www.cs.washington.edu/people/faculty/arvind) Prof. Arvind Krishnamurthy primarily focuses on computer networks. His work involves applying networking technology to address challenges in distributed machine learning. So there is always cutting-edge support in the field of networking.
 
 ## [Sample (University of Washington)](https://sampl.cs.washington.edu/)
 
 ## [SymbioticLab (University of Michigan, Ann Arbor)](https://symbioticlab.org/)
-* [Mosharaf Chowdhury (the academic leader): ](https://www.mosharaf.com/) Prof. Mosharaf is a student of [Prof. Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). He offers the course [Systems for AI (EECS598)](https://github.com/mosharaf/eecs598/tree/w21-ai)
+* [Mosharaf Chowdhury (the academic leader): ](https://www.mosharaf.com/) Prof. Mosharaf is a student of [Prof. Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). He offers the course [Systems for AI (EECS598)](https://github.com/mosharaf/eecs598/tree/w21-ai).
 
 
 ## [System Group (New York University)](http://www.news.cs.nyu.edu/)
-* [Jinyang Li: ](https://cims.nyu.edu/people/profiles/LI_Jinyang.html) She is the Ph.D. advisor of [Dr. Minjie Wang](https://jermainewang.github.io/)(the author of DGL)
+* [Jinyang Li: ](https://cims.nyu.edu/people/profiles/LI_Jinyang.html) She is the Ph.D. advisor of [Dr. Minjie Wang](https://jermainewang.github.io/)(the author of DGL).
 
 ## [Shivaram Venkataraman Research Group (University of Wisconsin, Madison)](https://shivaram.org/)
 * [Shivaram Venkataraman: ](https://shivaram.org/) Prof. Shivaram is the student of [Prof. Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). He understands more about machine learning and less about systems. The papers he published is not too many, but the workload is substantial.
@@ -82,7 +82,7 @@ Professors at RISE Lab have offered a course called [AI for Systems and Systems 
 
 
 # China
-In mainland China, it seems that most of the work in MLSys is being don in companies. However, some strong teams in distributed systems often also work on MLSys to some extent, such as [IPADS (Shanghai Jiaotong Univeristy).](https://ipads.se.sjtu.edu.cn/zh/index.html)
+In mainland China, it seems that most of the work in MLSys is being don in companies. However, some strong teams in distributed systems often also work on MLSys to some extent, such as [IPADS (Shanghai Jiaotong Univeristy)](https://ipads.se.sjtu.edu.cn/zh/index.html).
 
 ## [Microsoft Research Lab(Asia)](https://www.microsoft.com/en-us/research/group/systems-and-networking-research-group-asia/)
 
