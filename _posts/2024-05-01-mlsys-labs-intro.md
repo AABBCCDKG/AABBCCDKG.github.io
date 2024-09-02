@@ -16,7 +16,7 @@ This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a
 * [Fast and Efficient Infrastructure for Distributed Deep Learning (Fiddle)](https://www.microsoft.com/en-us/research/project/fiddle/)
 
 ## [Catalyst (Carnegie Mellon University)](https://catalyst.cs.cmu.edu/)
-* [Eric Xing: ](https://www.cs.cmu.edu/~epxing/) Prof. Eric is a student of [Prof. Michael I. Jordan](https://people.eecs.berkeley.edu/~jordan/).
+* [Eric Xing: ](https://www.cs.cmu.edu/~epxing/) Prof. Eric was a student of [Prof. Michael I. Jordan](https://people.eecs.berkeley.edu/~jordan/).
 
 * [Tianqi Chen: ](https://tqchen.com/)
 
@@ -82,7 +82,7 @@ Professors at RISE Lab have offered a course called [AI for Systems and Systems 
 
 
 # 🇨🇳 China 
-In mainland China, it seems that most of the work in MLSys is being don in companies. However, some strong teams in distributed systems often also work on MLSys to some extent, such as [IPADS (Shanghai Jiaotong Univeristy)](https://ipads.se.sjtu.edu.cn/zh/index.html).
+In mainland China, it seems that most of the work in MLSys is being done in companies. However, some strong teams in distributed systems often also work on MLSys to some extent, such as [IPADS (Shanghai Jiaotong Univeristy)](https://ipads.se.sjtu.edu.cn/zh/index.html).
 
 ## [Microsoft Research Lab(Asia)](https://www.microsoft.com/en-us/research/group/systems-and-networking-research-group-asia/)
 
