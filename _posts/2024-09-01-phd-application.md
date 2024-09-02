@@ -35,3 +35,4 @@ Ultima似乎和Chritofos的方向比较契合？都是cloud computing
 <div style="text-align: center;">
     （动态）
 </div>
+下周和Kunle的学生Nathan Zhang进行Zoom，我应该问些什么？
