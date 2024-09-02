@@ -11,7 +11,7 @@ tabs: true
 
 
 <div style="text-align: center;">
-    （一）
+    （序章）
 </div>
 
 博士申请中最重要的两个因素是人脉(Connection)和契合度(Match)。
@@ -24,4 +24,14 @@ tabs: true
 
 我读Ph.D.的初心并非出于对科研的热爱，而是希望拥有名校的Doctor头衔。实际上，目前最渴望的事是去创业。因此，对于Ph.D.的申请来说，我希望用最有效的方式 - 根据心仪的导师，定制自己的背景。
 
-目前，我心仪的导师是Stanford的Christofos和Kunle，以及MIT的Daniel。我的计划是在Prof. Muhammad课题组中参与发表一篇论文，并通过他的帮助，争取在今年寒假（12月）之前加入Christofos和Kunle的研究组，担任Research Intern，同时密切关注Daniel实验室的进展。在接下来长达11个月的Research Intern中，努力争取获得Return Offer。因此，接下来的博客将分为两部分：Prof. Muhammad课题组的科研进展；心仪导师实验室的最新动态。
+目前，我心仪的导师是Stanford的Christos和Kunle，以及MIT的Daniel。我的计划是在Prof. Muhammad课题组中参与发表一篇论文，并通过他的帮助，争取在今年寒假（12月）之前加入Christos和Kunle的研究组，担任Research Intern，同时密切关注Daniel实验室的进展。在接下来长达11个月的Research Intern中，努力争取获得Return Offer。因此，接下来的博客将分为两部分：Prof. Muhammad课题组的科研进展；心仪导师实验室的最新动态。
+
+<div style="text-align: center;">
+    （科研进展）
+</div>
+我有可能加入Ultima这个项目(Accelerating the training process for cloud-based distributed machine learning systems), 但是已经在Archive上了，我的名字还有机会添加上去么？
+Ultima似乎和Chritofos的方向比较契合？都是cloud computing
+
+<div style="text-align: center;">
+    （动态）
+</div>
