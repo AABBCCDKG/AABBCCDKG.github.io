@@ -16,6 +16,7 @@ tabs: true
 
 核心问题：more practical problem
 
+颜色单一的背景；球；
 
 草稿
 Ultima似乎和Chritofos的方向比较契合？都是cloud computing
