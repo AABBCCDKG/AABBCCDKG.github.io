@@ -32,5 +32,6 @@ tabs: true
     （Office Hour）
 </div>
 
-CS 251: -6:30PM
+CS 251: 2:00-6:30PM
+
 CS 250: 3:00-5:00PM
