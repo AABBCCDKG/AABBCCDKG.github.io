@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 博士申请记录(2) 
-date: 2024-09-04 00:32:13
+title: 博士申请记录(3) 
+date: 2024-09-05 00:32:13
 description: 
 tags: phd-application
 categories: phd-application
@@ -14,26 +14,32 @@ tabs: true
     （科研进度）
 </div>
 
-无
+****
+    目标: 修改Proposal -> 写代码 -> 写文章 -> 发文章: 
+    
+    为了识别复杂图像中的物体，我们可以进行一些预处理来简化识别过程。例如，应用高斯模糊、边缘检测、形态学操作、自适应阈值分割以及多尺度检测。
+
+    为了识别复杂的不规则物体，可以将其视为简单形状的组合。在使用合适的工具识别出所有基本形状（例如圆形和矩形）后，移除多余的线条，剩下的就是不规则物体的表示。
+
+****
+    
+    目标：理解概念 -> 加入Ultima的项目 -> 发文章: 
+
+    Ultima似乎和Chritofos的方向比较契合？都是cloud computing
+
+    消化拍的图片
+
 
 <div style="text-align: center;">
     （实验室动态）
 </div>
 
-**Nathan Zhang's Meeting - 30 Mins**
-
-    目标：了解如何准备RA申请 -> 申请RA -> 拿Return Offer
-
-    Question List:
-    1. (Match) I noticed that Professor Kunle has recently published many papers on Dataflow, and I also found some of his earlier talks on the subject. Does this mean that Professor Kunle's current primary research focus is on how to use Dataflow Architecture to improve computing performance, especially for machine learning? Or could you provide an overview of the current focus of Professor's research group?
-
-    2. (Connection) While I'm planning to apply for a PhD starting in 2026, I've decided to accelerate my degree process and aim to graduate in May next year so that I can apply for an on-site Research Assistant position. I'm very interested in the possibility of working with Professor Kunle. Given this, how would you suggest I plan my time between now and then? In the longer term, what qualities does Professor Kunle typically look for in his students? If you could provide some specific examples, that would be very helpful!! Additionally, what are the best ways to stay informed about the latest developments in his lab? Would Google Scholar be a good resource for this?
 
 
 <div style="text-align: center;">
     （Office Hour）
 </div>
 
-CS 251: -6:30PM
+CS 251: 10:00AM-6:30PM
 
-CS 250: 3:00-5:00PM
+CS 250: 2:14PM-4:15PM DSAI B039

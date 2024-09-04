@@ -15,7 +15,6 @@ tabs: true
 </div>
 
 无
-
 <div style="text-align: center;">
     （实验室动态）
 </div>
@@ -35,5 +34,4 @@ tabs: true
 </div>
 
 CS 251: -6:30PM
-
 CS 250: 3:00-5:00PM
