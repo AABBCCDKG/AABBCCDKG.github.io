@@ -22,8 +22,6 @@ tabs: true
     
     目标：理解概念 -> 加入Ultima的项目 -> 发文章: 
 
-    Ultima似乎和Chritofos的方向比较契合？都是cloud computing
-
     消化拍的图片
 
 
