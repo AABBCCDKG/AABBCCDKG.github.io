@@ -24,4 +24,4 @@ tabs: true
 
 我读Ph.D.的初心并非出于对科研的热爱，而是希望拥有名校的Doctor头衔。实际上，目前最渴望的事是创业。因此，对于Ph.D.的申请来说，我希望用最有效的方式 - 根据心仪的导师，定制自己的背景。
 
-目前，我心仪的导师是Stanford的Christos和Kunle，以及MIT的Daniel。我的计划是在Prof. Muhammad课题组中参与发表一篇论文，并通过他的帮助，争取在今年寒假（12月）之前加入Christos和Kunle的研究组，担任Research Intern，同时密切关注Daniel实验室的进展。在接下来长达11个月的Research Intern(争取2025年5月毕业，这样就有7个月的线下科研)中，努力争取获得Return Offer。因此，接下来的博客将分为两部分：Prof. Muhammad课题组的科研进展；心仪导师实验室的最新动态。
+目前，我心仪的导师是Stanford的Christos和Kunle，以及MIT的Daniel。我的计划是在Prof. Muhammad课题组中参与发表一篇论文，并通过他的帮助，争取在今年寒假（12月）之前加入Christos和Kunle的研究组，担任Research Intern，同时密切关注Daniel实验室的进展。在接下来长达11个月的Research Intern(争取2025年5月毕业，这样就有7个月的线下科研)中，努力争取获得Return Offer。因此，接下来的博客将分为两部分：Prof. Muhammad课题组的科研进度；心仪导师实验室的最新动态。
