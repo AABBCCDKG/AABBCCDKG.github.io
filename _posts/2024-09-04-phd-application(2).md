@@ -12,6 +12,7 @@ tabs: true
 <div style="text-align: center;">
     （科研进度/和过来人的交流密度）
 </div>
+
 了解如何准备RA申请 -> 申请RA -> 拿Return Offer: **Nathan Zhang Meeting - 30 Mins**
 
 修改Proposal -> 写代码 -> 写文章 -> 发文章
