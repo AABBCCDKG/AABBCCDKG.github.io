@@ -10,67 +10,12 @@ tabs: true
 我们有很多条路可以到达目标，但两点之间的直线最短。在这条直线上分布着需要解决的问题，这些问题符合二八定律。每次向经验丰富的人请教，都是在直线上解决一个小核心问题。
 
 <div style="text-align: center;">
-    （科研进度/和过来人的交流密度）
+    （科研进度）
 </div>
-
-**Nathan Zhang's Meeting - 30 Mins**
-
-    了解如何准备RA申请 -> 申请RA -> 拿Return Offer
-
-    Question List:
-    1. (Match) I noticed that Professor Kunle has recently published many papers on Dataflow, and I also found some of his earlier talks on the subject. Does this mean that Professor Kunle's current primary research focus is on how to use Dataflow Architecture to improve computing performance, especially for machine learning? Or could you provide an overview of the current focus of Professor's research group?
-
-    2. (Connection) While I'm planning to apply for a PhD starting in 2026, I've decided to accelerate my degree process and aim to graduate in May next year so that I can apply for an on-site Research Assistant position. I'm very interested in the possibility of working with Professor Kunle. Given this, how would you suggest I plan my time between now and then? In the longer term, what qualities does Professor Kunle typically look for in his students? If you could provide some specific examples, that would be very helpful!! Additionally, what are the best ways to stay informed about the latest developments in his lab? Would Google Scholar be a good resource for this?
-
 
 修改Proposal -> 写代码 -> 写文章 -> 发文章: 
 
 理解概念 -> 加入Ultima的项目 -> 发文章: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-目标: 
-
-
-草稿：
-
-Question List:
-
-    1. (Match) I noticed that Professor Kunle has recently published many papers on Dataflow, and I also found some of his earlier talks on the subject. Does this mean that Professor Kunle's current primary research focus is on how to use Dataflow Architecture to improve computing performance, especially for machine learning? Or could you provide an overview of the current focus of Professor's research group?
-
-    2. (Connection) While I'm planning to apply for a PhD starting in 2026, I've decided to accelerate my degree process and aim to graduate in May next year so that I can apply for an on-site Research Assistant position. I'm very interested in the possibility of working with Professor Kunle. Given this, how would you suggest I plan my time between now and then? In the longer term, what qualities does Professor Kunle typically look for in his students? If you could provide some specific examples, that would be very helpful!! Additionally, what are the best ways to stay informed about the latest developments in his lab? Would Google Scholar be a good resource for this?
-
-
-
-
-
-
-目标：
-
-A (修改Proposal) -> 写代码 -> 写文章 -> 发文章
-
-B 理解概念 -> 加入Ultima的项目 -> 发文章
-
-核心问题：
-
-A More general and practical 
-
-B 
-
-
 
 
 1. 目前只能识别简单图像，对于复杂图像，需要进行一些处理才能让 Hough-circle 等工具正确识别。
@@ -99,20 +44,18 @@ Ultima似乎和Chritofos的方向比较契合？都是cloud computing
 
 
 <div style="text-align: center;">
-    （动态）
+    （实验室动态）
 </div>
 
-目标：
+**Nathan Zhang's Meeting - 30 Mins**
 
-A: Question List for Nathan Zhang
+    目标：了解如何准备RA申请 -> 申请RA -> 拿Return Offer
 
-核心问题：了解Nathan + 了解什么可以提高自己申请到RA的概率
+    Question List:
+    1. (Match) I noticed that Professor Kunle has recently published many papers on Dataflow, and I also found some of his earlier talks on the subject. Does this mean that Professor Kunle's current primary research focus is on how to use Dataflow Architecture to improve computing performance, especially for machine learning? Or could you provide an overview of the current focus of Professor's research group?
 
-1. (Match)
-I noticed that Professor Kunle has recently published many papers on Dataflow, and I also found some of his earlier talks on the subject. Does this mean that Professor Kunle's current primary research focus is on how to use Dataflow Architecture to improve computing performance, especially for machine learning? Or could you provide an overview of the current focus of Professor's research group?
+    2. (Connection) While I'm planning to apply for a PhD starting in 2026, I've decided to accelerate my degree process and aim to graduate in May next year so that I can apply for an on-site Research Assistant position. I'm very interested in the possibility of working with Professor Kunle. Given this, how would you suggest I plan my time between now and then? In the longer term, what qualities does Professor Kunle typically look for in his students? If you could provide some specific examples, that would be very helpful!! Additionally, what are the best ways to stay informed about the latest developments in his lab? Would Google Scholar be a good resource for this?
 
-2. (Connection)
-While I'm planning to apply for a PhD starting in 2026, I've decided to accelerate my degree process and aim to graduate in May next year so that I can apply for an on-site Research Assistant position. I'm very interested in the possibility of working with Professor Kunle. Given this, how would you suggest I plan my time between now and then? In the longer term, what qualities does Professor Kunle typically look for in his students? If you could provide some specific examples, that would be very helpful!! Additionally, what are the best ways to stay informed about the latest developments in his lab? Would Google Scholar be a good resource for this?
 
 
 
