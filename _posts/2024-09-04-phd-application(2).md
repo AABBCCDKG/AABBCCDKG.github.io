@@ -8,16 +8,15 @@ categories: phd-application
 tabs: true
 ---
 我们有很多条路可以到达目标，但两点之间的直线最短。在这条直线上分布着需要解决的问题，这些问题符合二八定律。每次向经验丰富的人请教，都是在直线上解决一个小核心问题。
+
 <div style="text-align: center;">
     （科研进度/和过来人的交流密度）
 </div>
+了解如何准备RA申请 -> 申请RA -> 拿Return Offer: **Nathan Zhang Meeting - 30 Mins**
 
-Nathan Zhang Meeting - 30 Mins
+修改Proposal -> 写代码 -> 写文章 -> 发文章
 
-
-
-
-
+理解概念 -> 加入Ultima的项目 -> 发文章
 
 
 
@@ -26,7 +25,15 @@ Nathan Zhang Meeting - 30 Mins
 
 
 
-目标: 了解如何准备RA申请 -> 申请RA -> 拿Return Offer
+
+
+
+
+
+
+
+
+目标: 
 
 
 草稿：
