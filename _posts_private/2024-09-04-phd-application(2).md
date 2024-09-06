@@ -25,8 +25,15 @@ tabs: true
     Question List:
     1. (Match) I noticed that Professor Kunle has recently published many papers on Dataflow, and I also found some of his earlier talks on the subject. Does this mean that Professor Kunle's current primary research focus is on how to use Dataflow Architecture to improve computing performance, especially for machine learning? Or could you provide an overview of the current focus of Professor's research group?
 
+    Answer: Kunle's group mostly works on proposing accelerators, or various data flow projects.
+
+    Stanford: collaborative and flexible
+    MIT/UC Berkerley: structured 
+
+
     2. (Connection) While I'm planning to apply for a PhD starting in 2026, I've decided to accelerate my degree process and aim to graduate in May next year so that I can apply for an on-site Research Assistant position. I'm very interested in the possibility of working with Professor Kunle. Given this, how would you suggest I plan my time between now and then? In the longer term, what qualities does Professor Kunle typically look for in his students? If you could provide some specific examples, that would be very helpful!! Additionally, what are the best ways to stay informed about the latest developments in his lab? Would Google Scholar be a good resource for this?
 
+    
 
 <div style="text-align: center;">
     （Office Hour）
@@ -35,3 +42,5 @@ tabs: true
 CS 251: 2:00-6:30PM
 
 CS 250: 3:00-5:00PM
+
+
