@@ -28,7 +28,7 @@ Before transferring to Purdue University, I studied Communication Engineering at
 🌱 So far, I have attempted some interesting personal projects, such as:
 
 - [EchoGen](https://github.com/AABBCCDKG/EchoGen): Iterative Optimization System for LLM - Optimizing LLM generation results through iterative feedback.
-- [LLM-Guided GA for function fitting](https://github.com/AABBCCDKG/LLM-guided_GA_for_function_fitting): Using LLM to guide the direction of the evolution of the Genetic Algorithm.
-- [clip_on_sketch](https://github.com/AABBCCDKG/clip_on_sketch): Fine-tuning the CLIP model on a custom dataset of sketches, each labeled with a specific category or prompt.
-- [gmaillm](https://github.com/AABBCCDKG/gmaillm): Using LLM to interact with emails.
+- [SmartGA](https://github.com/AABBCCDKG/LLM-guided_GA_for_function_fitting): Using LLM to guide the direction of the evolution of the Genetic Algorithm.
+- [ArtTune](https://github.com/AABBCCDKG/clip_on_sketch): Fine-tuning the CLIP model on a custom dataset of sketches, each labeled with a specific category or prompt.
+- [Gmaillm](https://github.com/AABBCCDKG/gmaillm): Using LLM to interact with emails.
 
