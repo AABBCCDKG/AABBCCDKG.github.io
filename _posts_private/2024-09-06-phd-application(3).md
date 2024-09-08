@@ -7,22 +7,28 @@ tags: phd-application
 categories: phd-application
 tabs: true
 ---
+system还是AI？
+System，这是唯一能进四大的机会
+要不要继续留在Yexiang的课题组里？
+不要，方向不match，没有强推
+要不要找新的老师？
+要，否则推荐信数量不够
+
+
+Connection包括三个方面: 自己通过导师和目标导师的Connection; 自己通过目标导师学生和目标导师的Connection; 自己直接和目标导师的Connection.
+学习英语的关键在于通过重复练习让表达方式形成肌肉记忆。对于日常用语，不必事事记录，但在重要情境中，最好通过录音来捕捉细节，确保不遗漏任何学习机会。
+
+文章投稿前1个月，是有贡献的好时机（最近有哪些文章）
 <div style="text-align: center;">
-    （科研进度）
+    （强推进度）
 </div>
+评估标准：和导师直接交流的频率
 
-****
-    目标: 修改Proposal -> 写代码 -> 写文章 -> 发文章: 
-    
-    为了识别复杂图像中的物体，我们可以进行一些预处理来简化识别过程。例如，应用高斯模糊、边缘检测、形态学操作、自适应阈值分割以及多尺度检测。
+**Prof. Shahbaz**
 
-    为了识别复杂的不规则物体，可以将其视为简单形状的组合。在使用合适的工具识别出所有基本形状（例如圆形和矩形）后，移除多余的线条，剩下的就是不规则物体的表示。
+    目标：AllReduce代码中的send、receive和wait逻辑 -> 发文章 
+    加入组会
 
-**Ertza Meeting: 2:00PM -**
-    
-    目标：理解概念 -> 加入Ultima的项目 -> 发文章: 
-
-    消化拍的图片
 
 
 <div style="text-align: center;">
@@ -36,11 +42,13 @@ tabs: true
 **Daniel**
 
 
-
 <div style="text-align: center;">
     （Office Hour）
 </div>
 
-CS 251: 10:00AM-6:30PM
 
-CS 250: 2:14PM-4:15PM DSAI B039
+<div style="text-align: center;">
+    （English）
+</div>
+
+**Nathan Zhang**
