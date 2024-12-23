@@ -8,8 +8,6 @@ profile:
   image: personal.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Purdue&nbsp;&nbsp;2024.1 - 2025.12</p>
-    <p>NEU(CN) 2022.9 - 2023.12</p>
 
 news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
