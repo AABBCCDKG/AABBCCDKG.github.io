@@ -19,7 +19,7 @@ I led a project titled "[Video Prediction through Physical Laws](https://github.
 
 I joined the [Vertically Integrated Program](https://engineering.purdue.edu/VIP) from January 2024 to May 2024, where I worked with the Purdue Aerial Robotics Team under the IEEE chapter's PART committee. I introduced hand-drawn sketches as a more precise input method for drone-based item transport, trained a GAN-based neural network for image-to-sketch conversion.
 
-Before transferring to Purdue University, I studied Communication Engineering at Northeastern University (China) for one year and a half. There, I had the honor of serving as a Teaching Assistant for the Network Fundamentals course under the guidance of [Dr. Peng Han](https://graduate.neuq.edu.cn/info/1016/4552.htm) in Fall 2023.
+Before transferring to Purdue University, I studied Communication Engineering at Northeastern University (China) for one year and a half. There, I had the honor of serving as a Teaching Assistant under the guidance of [Dr. Peng Han](https://graduate.neuq.edu.cn/info/1016/4552.htm) in Fall 2023.
 
 🌱 So far, I have attempted some interesting personal projects, such as:
 
