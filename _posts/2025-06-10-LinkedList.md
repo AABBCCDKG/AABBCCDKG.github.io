@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linked List
+title: Linked List, LeetCode
 date: 2025-06-10 15:32:13
 description: LeetCode problems related to Linked List
 tags: LeetCode
