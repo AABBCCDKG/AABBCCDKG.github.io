@@ -8,7 +8,7 @@ categories: LeetCode
 tabs: true
 ---
 
-To calculate the middle index: use `(left + right)//2`, where `//` denotes floor division. When the number of elements is even, the fomular returns the left-middle index.
+To calculate the middle index: use `(left + right) // 2`, where `//` denotes floor division. When the number of elements is even, the fomular returns the left-middle index.
 
 Optimization: `left + (right - left) // 2` - Avoid integer overflow caused by a too large `right + left` through interval offset
 
@@ -38,6 +38,4 @@ class Solution:
             else:
                 return middle
         return -1
-
-
 ```
