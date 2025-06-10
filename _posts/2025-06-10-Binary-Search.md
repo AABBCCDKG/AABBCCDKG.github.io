@@ -12,6 +12,14 @@ To calculate the middle index: use `(left + right)//2`, where `//` denotes floor
 
 Optimization: `left + (right - left) // 2` - Avoid integer overflow caused by a too large `right + left` through interval offset
 
+Why O(log(n))?
+- Each iteration eliminates half of elements
+- Search Space shrinks exponentially
+    - 1st iteration: n elements
+    - 2st iteration: n/2 elements
+- At most log(n) comparisons are needed
+    - 2^k = n, log(n) = k
+- Stop when `nums[middle] == target` before checking all search space (`left == right`)
 
 ```python
 from typing import List
