@@ -27,7 +27,9 @@
         <span class="k">while</span> <span class="n">curr</span><span class="p">.</span><span class="nb">next</span><span class="p">:</span> 
             <span class="k">if</span> <span class="n">curr</span><span class="p">.</span><span class="nb">next</span><span class="p">.</span><span class="n">val</span> <span class="o">==</span> <span class="n">val</span><span class="p">:</span>
                 <span class="n">curr</span><span class="p">.</span><span class="nb">next</span> <span class="o">=</span> <span class="n">curr</span><span class="p">.</span><span class="nb">next</span><span class="p">.</span><span class="nb">next</span>
-                <span class="c1"># curr.next is updated, check it again without moving curr forward — otherwise, might skip consecutive target nodes.
+                <span class="c1"># curr.next is updated, check it 
+</span>                <span class="c1"># again without moving curr forward 
+</span>                <span class="c1"># otherwise, might skip consecutive target nodes.
 </span>            <span class="k">else</span><span class="p">:</span>
                 <span class="n">curr</span> <span class="o">=</span> <span class="n">curr</span><span class="p">.</span><span class="nb">next</span>
         <span class="k">return</span> <span class="n">dummy_head</span><span class="p">.</span><span class="nb">next</span>
