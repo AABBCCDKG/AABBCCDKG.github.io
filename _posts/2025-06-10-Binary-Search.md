@@ -19,7 +19,7 @@ Why O(log(n))?
     - 2st iteration: n/2 elements
 - At most log(n) comparisons are needed
     - 2^k = n, log(n) = k
-- Stop when `nums[middle] == target` before checking all search space (`left == right`)
+- Stop in advance (`nums[middle] == target`) before checking all search space (`left == right`)
 
 ```python
 from typing import List
