@@ -8,6 +8,9 @@ categories: LeetCode
 tabs: true
 ---
 
+To calculate the middle index: use `(left + right)//2`, where `//` denotes floor division. When the number of elements is even, the fomular returns the left-middle index.
+
+Optimization: `left + (right - left) // 2` - Avoid integer overflow caused by a too large `right + left` through interval offset
 
 This is a brief introduction to top-tier MLSys labs for Ph.D. applicants, with a primary focus on those in the United States and mainland China. If there are any omissions, please feel free to [contact me](mailto:wangdong0502@gmail.com) to add them.
 # 🇺🇸 United States 
