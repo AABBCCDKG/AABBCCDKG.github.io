@@ -7,6 +7,7 @@ tags: LeetCode
 categories: LeetCode
 tabs: true
 ---
+[704. Binary Search](https://leetcode.com/problems/binary-search/description/)
 
 To calculate the middle index: use `(left + right) // 2`, where `//` denotes floor division. When the number of elements is even, the fomular returns the left-middle index.
 
