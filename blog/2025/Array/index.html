@@ -47,8 +47,8 @@
         <span class="k">while</span> <span class="n">left</span> <span class="o">&lt;=</span> <span class="n">right</span><span class="p">:</span>
             <span class="n">left_square</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">left</span><span class="p">]</span> <span class="o">**</span> <span class="mi">2</span>
             <span class="n">right_square</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">right</span><span class="p">]</span> <span class="o">**</span> <span class="mi">2</span>
-            <span class="k">if</span> <span class="n">left_square</span> <span class="o">&lt;</span> <span class="n">right_square</span><span class="p">:</span>
-                <span class="n">result</span><span class="p">[</span><span class="n">position</span><span class="p">]</span> <span class="o">=</span> <span class="n">right_square</span>
+            <span class="k">if</span> <span class="n">left_square</span> <span class="o">&lt;=</span> <span class="n">right_square</span><span class="p">:</span> <span class="c1"># write '&lt;' first, then check whether '=' works 
+</span>                <span class="n">result</span><span class="p">[</span><span class="n">position</span><span class="p">]</span> <span class="o">=</span> <span class="n">right_square</span>
                 <span class="n">position</span> <span class="o">-=</span> <span class="mi">1</span>
                 <span class="n">right</span> <span class="o">-=</span> <span class="mi">1</span>
             <span class="k">else</span><span class="p">:</span>
