@@ -48,7 +48,9 @@ class Solution:
         while curr.next: 
             if curr.next.val == val:
                 curr.next = curr.next.next
-                # curr.next is updated, check it again without moving curr forward — otherwise, might skip consecutive target nodes.
+                # curr.next is updated, check it 
+                # again without moving curr forward 
+                # otherwise, might skip consecutive target nodes.
             else:
                 curr = curr.next
         return dummy_head.next
