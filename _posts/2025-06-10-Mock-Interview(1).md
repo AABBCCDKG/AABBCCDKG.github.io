@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mock Interview, LeetCode
+title: Mock Interview(1), LeetCode
 date: 2025-06-10 18:32:13
 description: LeetCode problems discussed during a mock interview on 2025-06-10
 tags: LeetCode
