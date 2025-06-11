@@ -27,4 +27,40 @@ A tree with `n` nodes must have exactly `n - 1` edges
     return x
  ```
 
- Union-Find, Union: 
+ ```python
+ class Solution:
+    def validTree(self, edges: List[List[int]]) -> bool:
+        # [[1, 2]], [[1], [2]] all belongs to Lits[List[int]]
+        if len(edges) != n - 1:
+            return False
+
+        parent = [i for i in range(n)]
+        rank = [1] * n
+        # each node is own root
+        
+        def find(x):
+            while parent[x] != x:
+                parent[x] = parent[parent[x]]
+                x = parent[x]
+            return x
+        
+        def union(a, b):
+            rootA = find(a)
+            rootB = find(b)
+
+            # if rootA = rootB, it means they already connected, there is a cycle
+            if rootA == rootB:
+                return False 
+            
+            if rank[rootA] > rank[rootB]:
+                parent[rootB] = rootA 
+                # update the parent root
+            else: 
+                parent[rootA] = rootB
+                rank[rootA] += 1
+            return True
+        for u, v in range(edges):
+            if not union(u, v):
+                return False
+        return True
+ ```
