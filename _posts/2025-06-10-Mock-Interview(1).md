@@ -7,6 +7,8 @@ tags: LeetCode
 categories: LeetCode
 tabs: true
 ---
+[261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/description/)
+
 A tree with `n` nodes must have exactly `n - 1` edges
  - More than `n - 1`: cycle
  - Less than `n - 1`: not all nodes are connected: isolated nodes or a forest (multiple disconnected subtrees)
@@ -64,3 +66,37 @@ A tree with `n` nodes must have exactly `n - 1` edges
                 return False
         return True
  ```
+[15. 3Sum](https://leetcode.com/problems/3sum/description/)
+
+```python
+from typing import List
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        result = []
+        nums.sort() # the nums should be in order
+        for i in range(len(nums) - 2):
+            if i > 0 and nums[i] == nums[i - 1]:
+                continue
+            # Avoid duplicate group result in same element for i index
+            left = i + 1
+            right = len(nums) - 1
+            while left < right:
+                _sum = nums[i] + nums[left] + nums[right]
+                if _sum < 0:
+                    left += 1
+                elif _sum > 0:
+                    right -= 1
+                else:
+                    result.append([nums[i], nums[left], nums[right]])
+
+                    # Avoid duplicate group result in same elements for left/right index
+                    while left < right and nums[left] == nums[left + 1]:
+                        # check left < right first to avoid list index out of range
+                        left += 1
+                    while left > right and nums[right] = nums[right - 1]:
+                        right -= 1
+
+                    left += 1
+                    right -= 1
+        return result
+```
