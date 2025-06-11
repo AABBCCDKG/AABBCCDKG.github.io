@@ -100,6 +100,7 @@ class Solution:
                     right -= 1
         return result
 ```
+[523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days)
 ```python
 origin_num = [0, 1, 2, 3, 4, 5]
 prefix_sum = [0, 1, 3, 6, 10, 15]
