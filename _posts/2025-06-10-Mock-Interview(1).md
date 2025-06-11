@@ -109,3 +109,19 @@ reminder_5 = [0, 1, 3, 1, 0, 0]
 ```
 If a certain remainder of the prefix sum modulo `k` first appears at index `i` and then again at index `j`, then the subarray `(i, j]` has a sum that is divisible by k
 
+```python
+class Solution:
+    def checkSubarraySum(self, nums, k):
+        hashmap = {0: -1}
+        _sum = 0
+        for j in range(len(nums)):
+            _sum += nums[j]
+            remainder = _sum % k
+            
+            if remainder in hashmap:
+                if j - hashmap[remainder] >= 2:
+                    return True
+            else:
+                hashmap[remainder] = j
+        return False
+```
