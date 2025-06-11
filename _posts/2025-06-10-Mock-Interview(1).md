@@ -11,17 +11,20 @@ A tree with `n` nodes must have exactly `n - 1` edges
  - More than `n - 1`: cycle
  - Less than `n - 1`: not all nodes are connected: isolated nodes or a forest (multiple disconnected subtrees)
 
- union-find, find:
+ Union-Find, Find:
  ```python
  parent = [i for i in range(n)]
  def find(a):
     while parent[x] != x:
         # when parent[x] == x, then it is the true root
-        parent[x] = parent[parent[x]] # compress the path
-        # x is not the root, but parent[x] and parent[parent[x]] may be the root
+        parent[x] = parent[parent[x]] 
+        # find the true father node of x
         # since the father node of x is parent[x], the father node of parent[x] is parent[parent[x]]
         # then the true father node of x is parent[parent[x]]
-        x = parent[x] # update the x node as its parent nodes, find the true root
+        # x is not the root, but parent[x] and parent[parent[x]] may be the root
+        x = parent[x] 
+        # update the x
     return x
  ```
- 
+
+ Union-Find, Union: 
