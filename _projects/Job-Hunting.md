@@ -7,4 +7,6 @@ importance: 1
 category: work
 related_publications: true
 ---
+TikTok Machine Learning Engineer (E-commerce-Recommendation)
+Base: San Jose (6.11) / Seattle (6.9)
 
