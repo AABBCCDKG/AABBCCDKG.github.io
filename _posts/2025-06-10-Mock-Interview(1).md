@@ -100,3 +100,12 @@ class Solution:
                     right -= 1
         return result
 ```
+```python
+origin_num = [0, 1, 2, 3, 4, 5]
+prefix_sum = [0, 1, 3, 6, 10, 15]
+reminder_5 = [0, 1, 3, 1, 0, 0]
+                 |     |
+                    2 + 3 = 5
+```
+If a certain remainder of the prefix sum modulo `k` first appears at index `i` and then again at index `j`, then the subarray `(i, j]` has a sum that is divisible by k
+
