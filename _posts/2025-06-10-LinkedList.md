@@ -125,7 +125,7 @@ class Solution:
             suc.prev = pred
             self.size -= 1
 ```
-
+[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 The entire operation consists of rerouting the single pointer among `curr`, `pred`, and `suc`: replacing `curr.next = suc` with `curr.next = pred`. So there is no pointer exsiting between `curr` and `pred`, otherwise there will be a cycle. - why initialize `pred` as `None` instead of `dummy_head (dummy_head.next = head)`
 
 ```python
