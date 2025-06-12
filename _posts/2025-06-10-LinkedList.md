@@ -88,5 +88,15 @@ class Solution:
                 # during this block, curr is the node at position i
             return curr.val
 
-        def
+        def addAtHead(self, val: int) -> None:
+            self.addAtIndex(0, val)
+        
+        def addAtTail(self, val: int) -> None:
+            self.addAtIndex(self.size, val)
+        
+        def addAtIndex(self, index: int, val: int) -> None:
+            pass
+    
+        def deleteAtIndex(self, index: int, val: int) -> None:
+            pass
 ```
