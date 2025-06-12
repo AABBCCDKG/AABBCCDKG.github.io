@@ -19,10 +19,10 @@ related_publications: true
 
 [TikTok Machine Learning Engineer (E-commerce-Recommendation)](https://lifeattiktok.com/referral/tiktok/campus/position/7397462166708930867/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)
 
-- 圣何塞，6.11提交 -> 再修改一下简历，Reach out Sya
+- 圣何塞，6.11提交 -> 修改一下简历，Reach out Sya
 
 
 TikTok Machine Learning Engineer (E-Commerce Governance Algorithms)
 
-- 
+- 圣何塞，西雅图，6.12提交
 
