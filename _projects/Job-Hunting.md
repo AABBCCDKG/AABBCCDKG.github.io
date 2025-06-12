@@ -9,20 +9,19 @@ related_publications: true
 ---
 `Fall Intern`
 
+[TikTok Full Stack Software Engineer](https://lifeattiktok.com/referral/tiktok/campus/position/7507388155302185223/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)
+
+- 圣何塞，5.28提交
+
 [TikTok Machine Learning Engineer (E-commerce-Recommendation)](https://lifeattiktok.com/referral/tiktok/campus/position/7397461556852508966/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)
 
-- Base: Seattle (6.9)
+- 西雅图，6.9提交
 
 [TikTok Machine Learning Engineer (E-commerce-Recommendation)](https://lifeattiktok.com/referral/tiktok/campus/position/7397462166708930867/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)
 
-- Base: San Jose (6.11)
+- 圣何塞，6.11提交
 
 
-No notification yet
-
-TikTok Full Stack Software Engineer
-
-5.28
 
 TikTok Machine Learning Engineer (E-Commerce Governance Algorithms)
 
