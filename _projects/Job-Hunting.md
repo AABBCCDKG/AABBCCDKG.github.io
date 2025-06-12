@@ -38,4 +38,6 @@ related_publications: true
 
 - 圣何塞
 
-[NVIDIA Software Engineer Inter NIMS](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--LLM-NIM-Engineering---Fall-2025_JR1990733?utm_source=ouckah)(没有用referral, reach out hr 来过简历关?)
+[NVIDIA Software Engineer Inter NIMS](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--LLM-NIM-Engineering---Fall-2025_JR1990733?utm_source=ouckah)(没有用referral, reach out HR 来过简历关?)
+
+Tesla
