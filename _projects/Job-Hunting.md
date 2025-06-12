@@ -37,3 +37,5 @@ related_publications: true
 [TikTok AI/ML Software Engineer Intern (Data Platform)](https://lifeattiktok.com/referral/tiktok/campus/position/7499689149813950727/detail?token=NTsxNzQ5NDA4NjUxNzE5OzczNTU1MTc5ODgwNjg5MDI0MDE7NzUxMzYxNTA3MDk2NzgyNjcwNjsy)(待提交)
 
 - 圣何塞
+
+[NVIDIA Software Engineer Inter NIMS](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--LLM-NIM-Engineering---Fall-2025_JR1990733?utm_source=ouckah)(没有用referral, reach out hr 来过简历关?)
