@@ -9,7 +9,7 @@ related_publications: true
 ---
 `Fall Intern`
 
-[TikTok Full Stack Software Engineer](https://lifeattiktok.com/referral/tiktok/campus/position/7507388155302185223/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)(交了没有反应 -> 改简历，重新交)
+[TikTok Full Stack Software Engineer](https://lifeattiktok.com/referral/tiktok/campus/position/7507388155302185223/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)(交了没有反应 -> 改简历，换号，重新交)
 
 - 圣何塞，5.28提交
 
