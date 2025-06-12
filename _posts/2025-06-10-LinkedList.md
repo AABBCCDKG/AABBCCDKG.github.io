@@ -138,10 +138,10 @@ class Solution:
     def reverseList(self, head: Optional[LitsNode]):
         pred = None
         curr = head
-        while curr:
-            suc = curr.next
+        while curr: # check
+            suc = curr.next # adjust
             curr.next = pred
-            pred = curr
-            cur = succ
+            pred = curr # move
+            cur = succ 
         return pred
 ```
