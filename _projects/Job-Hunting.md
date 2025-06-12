@@ -7,13 +7,20 @@ importance: 1
 category: work
 related_publications: true
 ---
-TikTok Machine Learning Engineer (E-commerce-Recommendation)
+[TikTok Machine Learning Engineer (E-commerce-Recommendation)](https://lifeattiktok.com/referral/tiktok/campus/position/7397461556852508966/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)
 
-Base: San Jose (6.11) / Seattle (6.9)
+- Base: Seattle (6.9)
+
+[TikTok Machine Learning Engineer (E-commerce-Recommendation)](https://lifeattiktok.com/referral/tiktok/campus/position/7397462166708930867/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)
+
+- Base: San Jose (6.11)
+
 
 No notification yet
 
 TikTok Full Stack Software Engineer
 
 5.28
+
+TikTok Machine Learning Engineer (E-Commerce Governance Algorithms)
 
