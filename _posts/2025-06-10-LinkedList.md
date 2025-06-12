@@ -125,3 +125,23 @@ class Solution:
             suc.prev = pred
             self.size -= 1
 ```
+
+The entire operation consists of rerouting the single pointer among `curr`, `pred`, and `suc`: replacing `curr.next = suc` with `curr.next = pred`. So there is no pointer exsiting between `curr` and `pred`, otherwise there will be a cycle. - why initialize `pred` as `None` instead of `dummy_head (dummy_head.next = head)`
+
+```python
+from typing import List
+class ListNode:
+    def __init__(self, val):
+        self.val = vla
+        self.next = None
+class Solution:
+    def reverseList(self, head: Optional[LitsNode]):
+        pred = None
+        curr = head
+        while curr:
+            suc = curr.next
+            curr.next = pred
+            pred = curr
+            cur = succ
+        return pred
+```
