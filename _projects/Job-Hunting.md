@@ -7,6 +7,8 @@ importance: 1
 category: work
 related_publications: true
 ---
+`Fall Intern`
+
 [TikTok Machine Learning Engineer (E-commerce-Recommendation)](https://lifeattiktok.com/referral/tiktok/campus/position/7397461556852508966/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)
 
 - Base: Seattle (6.9)
