@@ -22,7 +22,7 @@ related_publications: true
 - 圣何塞，6.11提交 -> 修改一下简历，Reach out Sya
 
 
-TikTok Machine Learning Engineer (E-Commerce Governance Algorithms)
+[TikTok Machine Learning Engineer (E-Commerce Governance Algorithms)](https://lifeattiktok.com/referral/tiktok/campus/position/7397453649348479270/detail?token=NTsxNzQ5NDA4NjUxNzE5OzczNTU1MTc5ODgwNjg5MDI0MDE7NzUxMzYxNTA3MDk2NzgyNjcwNjsy)
 
 - 圣何塞，西雅图，6.12提交
 
