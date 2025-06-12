@@ -63,10 +63,10 @@ class Solution:
 from typing import Optional
 class Solution:
     class ListNode:
-        def __init__(self, val: int, pre = None, next = None):
+        def __init__(self, val: int, prev = None, next = None):
             self.val = val
             self.next = next
-            self.pre = pre
+            self.prev = prev
     
     class MyLinkedList:
         def __init__(self):
@@ -89,14 +89,39 @@ class Solution:
             return curr.val
 
         def addAtHead(self, val: int) -> None:
-            self.addAtIndex(0, val)
+            self.addAtIndex(0, val) # no need for updating self.size
         
         def addAtTail(self, val: int) -> None:
-            self.addAtIndex(self.size, val)
+            self.addAtIndex(self.size, val) # no need for updating self.size
         
         def addAtIndex(self, index: int, val: int) -> None:
-            pass
+            if index < 0 or index > self.size:
+                return
+            
+            curr = self.head
+            for i in range(index + 1):
+                curr = curr.next
+
+            pred = curr.prev
+            suc = curr # move afterward, so suc is curr instead of curr.next
+            curr = ListNode(val)
+            pred.next = curr
+            curr.prev = pred
+            curr.next = suc
+            suc.prev = curr
+            self.size += 1
     
-        def deleteAtIndex(self, index: int, val: int) -> None:
-            pass
+        def deleteAtIndex(self, index: int) -> None:
+            if index < 0 or index > self.size - 1:
+                return
+            
+            curr = self.head
+            for i in range(index + 1):
+                curr = curr.next
+            
+            pred = curr.prev
+            suc = curr.next
+            pred.next = suc
+            suc.prev = pred
+            self.size -= 1
 ```
