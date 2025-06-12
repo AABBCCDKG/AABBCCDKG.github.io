@@ -26,3 +26,14 @@ TikTok Machine Learning Engineer (E-Commerce Governance Algorithms)
 
 - 圣何塞，西雅图，6.12提交
 
+[TikTok Software Engineer Intern (Big Data - Data Platform)](https://lifeattiktok.com/referral/tiktok/campus/position/7444457959197509896/detail?token=NTsxNzQ5NDA4NjUxNzE5OzczNTU1MTc5ODgwNjg5MDI0MDE7NzUxMzYxNTA3MDk2NzgyNjcwNjsy)
+
+- 圣何塞/西雅图 6.12提交
+
+[TikTok Software Engineer Intern (Recommendation Infrastructure)](https://lifeattiktok.com/referral/tiktok/campus/position/7397571359977310490/detail?token=NTsxNzQ5NDA4NjUxNzE5OzczNTU1MTc5ODgwNjg5MDI0MDE7NzUxMzYxNTA3MDk2NzgyNjcwNjsy)
+
+- 圣何塞/西雅图
+
+[TikTok AI/ML Software Engineer Intern (Data Platform)](https://lifeattiktok.com/referral/tiktok/campus/position/7499689149813950727/detail?token=NTsxNzQ5NDA4NjUxNzE5OzczNTU1MTc5ODgwNjg5MDI0MDE7NzUxMzYxNTA3MDk2NzgyNjcwNjsy)
+
+- 圣何塞
