@@ -55,3 +55,38 @@ class Solution:
                 curr = curr.next
         return dummy_head.next
 ```
+[707. Design Linked List](https://leetcode.com/problems/design-linked-list/description/)
+
+`return None` equals to `return` (end the function in advance)
+
+```python
+from typing import Optional
+class Solution:
+    class ListNode:
+        def __init__(self, val: int, pre = None, next = None):
+            self.val = val
+            self.next = next
+            self.pre = pre
+    
+    class MyLinkedList:
+        def __init__(self):
+            self.head = ListNode(0)
+            self.tail = ListNode(0)
+            self.head.next = self.tail
+            self.tail.prev = self.head
+            self.size = 0
+
+        def get(self, index: int) -> int:
+            if index < 0 or index > self.size - 1:
+                return -1
+            
+            curr = self.head 
+            # use self.head: iterate index + 1 times, i could be index
+            # use self.head.next: iterate index times, 
+            for i in range(index + 1):
+                curr = curr.next
+                # during this block, curr is the node at position i
+            return curr.val
+
+        def
+```
