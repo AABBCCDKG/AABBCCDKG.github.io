@@ -11,7 +11,7 @@ related_publications: true
 
 [TikTok Full Stack Software Engineer](https://lifeattiktok.com/referral/tiktok/campus/position/7507388155302185223/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)
 
-- 圣何塞，5.28提交
+- 圣何塞，5.28提交 -> 换个账号提交?
 
 [TikTok Machine Learning Engineer (E-commerce-Recommendation)](https://lifeattiktok.com/referral/tiktok/campus/position/7397461556852508966/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)
 
@@ -19,7 +19,7 @@ related_publications: true
 
 [TikTok Machine Learning Engineer (E-commerce-Recommendation)](https://lifeattiktok.com/referral/tiktok/campus/position/7397462166708930867/detail?token=MzsxNzE0NDUzMjg4NTMwOzczMTExNTg0NzkzNTAxMzgzNzc7MDsy)
 
-- 圣何塞，6.11提交
+- 圣何塞，6.11提交 -> Reach out Sya?
 
 
 
