@@ -177,6 +177,14 @@ class Solution:
 
 [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 
+Steps:
+- These are number of loop iterations (for/while)
+- To reach the n-th node in the linked list, you need `n - 1` steps (`n - 1` loop iterations)
+
+Elements:
+- This is the count of items in a range
+- For index `left` and `right`, `right - left` calculates the length (the number of elements) of interval '[left, right)`
+
 ```python
 from typing import Optional
 class ListNode:
@@ -190,9 +198,13 @@ class Solution:
         fast, slow = dummy_head
         # move fast n + 1 steps to make sure there are only n nodes between fast and slow
 
-        [1, 2, 3]
-        3 - 1 = 2
         for _ in range(n + 1):
             fast = fast.next
+
+        while fast:
+            fast = fast.next
+            slow = slow.next
+        slow.next = slow.next.next
+        
         
 ```
