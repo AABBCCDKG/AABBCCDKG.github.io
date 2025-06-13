@@ -174,3 +174,22 @@ class Solution:
             pred = curr
         return dummy_head.next
 ```
+
+[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
+
+```python
+from typing import Optional
+class ListNode:
+    def __init__(self, val: int, next: Optional[ListNode] = None):
+        self.val = val
+        self.next = next
+class Solution:
+    def removeNthFromEnd(self, n: int, head: Optional[ListNode]):
+        dummy_head = ListNode(0)
+        dummy_head.next = head
+        fast, slow = dummy_head
+        # move fast n + 1 step2 to make sure there are only n steps between fast and slow
+        for _ in range(n + 1):
+            fast = fast.next
+        
+```
