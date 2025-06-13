@@ -183,7 +183,7 @@ Steps:
 
 Elements:
 - This is the count of items in a range
-- For index `left` and `right`, `right - left` calculates the length (the number of elements) of interval '[left, right)`
+- For index `left` and `right`, `right - left` calculates the length (the number of elements) of interval `[left, right)`
 
 ```python
 from typing import Optional
