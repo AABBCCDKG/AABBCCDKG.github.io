@@ -206,3 +206,26 @@ class Solution:
             slow = slow.next
         slow.next = slow.next.next
 ```
+
+In the cycle, `fast` pointer is chasing `slow` pointer, and the relative velocity between `fast` and `slow` pointers are `2 - 1 = 1`, so they will meet for sure
+
+```python
+from typing import Optional
+class ListNode:
+    def __init__(self, val: int, next = None):
+        self.val = val
+        self.next = next
+class Solution:
+    def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        fast, slow = head
+        while fast.next and fast.next.next:
+            fast = fast.next.next
+            slow = slow.next
+            if fast = slow:
+                fast = head
+                while fast != slow:
+                    fast = fast.next
+                    slow = slow.next
+                return slow
+        return None
+```
