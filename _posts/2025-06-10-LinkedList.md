@@ -133,7 +133,7 @@ The entire operation consists of rerouting the single pointer among `curr`, `pre
 from typing import List
 class ListNode:
     def __init__(self, val):
-        self.val = vla
+        self.val = val
         self.next = None
 class Solution:
     def reverseList(self, head: Optional[LitsNode]):
@@ -149,3 +149,28 @@ class Solution:
 
 [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
 
+```python
+from typing import Optional
+class ListNode:
+    def __init__(self, val: int, next = None):
+        self.val = val
+        self.next = next
+class Solution:
+    def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        dummy_head = ListNode(0)
+        dummy_head.next = head
+        pred = dummy_head
+        #        [0,   1,   2,    3]
+        # pred, curr, suc
+        while pred.next and pred.next.next:
+        # the length must be even
+            curr = pred.next
+            suc = pred.next.next
+
+            curr.next = suc.next
+            pred.next = suc
+            suc.next = curr
+
+            pred = curr
+        return dummy_head.next
+```
