@@ -206,6 +206,7 @@ class Solution:
             slow = slow.next
         slow.next = slow.next.next
 ```
+[142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)
 
 In the cycle, `fast` pointer is chasing `slow` pointer, and the relative velocity between `fast` and `slow` pointers are `2 - 1 = 1`, so they will meet for sure
 
