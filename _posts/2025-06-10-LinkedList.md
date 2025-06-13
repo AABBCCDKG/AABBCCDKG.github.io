@@ -188,7 +188,10 @@ class Solution:
         dummy_head = ListNode(0)
         dummy_head.next = head
         fast, slow = dummy_head
-        # move fast n + 1 step2 to make sure there are only n steps between fast and slow
+        # move fast n + 1 steps to make sure there are only n nodes between fast and slow
+
+        [1, 2, 3]
+        3 - 1 = 2
         for _ in range(n + 1):
             fast = fast.next
         
