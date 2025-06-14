@@ -106,3 +106,31 @@ class Solution:
                 stack.append()
         return ''.join(stack)
 ```
+[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
+
+`if token in '+-*/'`: Check whether token is not one of the characters `+`, `-`, `*`, or `/`.
+
+`a // b`: floor division (only when there is no negative integer between `a` and `b`)
+`int(a/b)`: truncate toward zero
+
+```python
+from typing import List
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
+        stack = []
+        for token in tokens: # the order of iteration is from index 0 to index len(tokens) - 1
+            if token not in '+-*/':
+                stack.append(int(token))
+            else:
+                right = stack.pop()
+                left = stack.pop()
+                if token == '+':
+                    stack.append(left + right)
+                elif token == '-':
+                    stack.append(left - right)
+                elif token == '*':
+                    stack.append(left * right)
+                else:
+                    stack.append(int(left/right))
+        return stack[0]
+```
