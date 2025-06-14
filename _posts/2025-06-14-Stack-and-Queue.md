@@ -71,3 +71,19 @@ class MyStack:
     def empty(self):
         return not self.queue    
 ```
+
+[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+
+```python
+class Solution:
+    def isValid(self, s: str) -> bool:
+        stack = []
+        hashmap = {'(': ')', '[': ']', '{': '}'}
+        for char in s:
+            if char in hashmap:
+                stack.append(hashmap[char])
+            else:
+                if not stack or char != stack.pop():
+                    return False
+        return not stack
+```
