@@ -45,6 +45,7 @@ class MyQueue:
 `List`:
 - initialization: `l = []`
 - `l.append()`, `l.pop()`
+
 ```python
 from collections import deque
 class MyStack:
@@ -86,4 +87,22 @@ class Solution:
                 if not stack or char != stack.pop(): # stack should not be empty in advance
                     return False
         return not stack # stack should be empty exactly when iterate all char in s
+```
+
+[1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)
+
+The index of `0` of stack: the first element: `''.join(stack)` equals to `''.join(list)` 
+
+The index of `-1` of stack: the last element(top)
+
+```python
+class Solution:
+    def removeDuplicates(self, s: str) -> str:
+        stack = []
+        for char in s:
+            if stack and char == stack[-1]:
+                stack.pop()
+            else:
+                stack.append()
+        return ''.join(stack)
 ```
