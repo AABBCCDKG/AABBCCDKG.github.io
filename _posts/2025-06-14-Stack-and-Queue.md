@@ -83,7 +83,7 @@ class Solution:
             if char in hashmap:
                 stack.append(hashmap[char])
             else:
-                if not stack or char != stack.pop():
+                if not stack or char != stack.pop(): # stack should not be empty in advance
                     return False
-        return not stack
+        return not stack # stack should be empty exactly when iterate all char in s
 ```
