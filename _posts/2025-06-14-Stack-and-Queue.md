@@ -35,3 +35,39 @@ class MyQueue:
     def empty(self):
         return not self.stack1 and not self.stack2
 ```
+
+[225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)
+
+`Queue`:
+- initialization: `q = deque()`
+- `q.append()`, `q.popleft()`
+
+`List`:
+- initialization: `l = []`
+- `l.append()`, `l.pop()`
+```python
+from collections import deque
+class MyStack:
+    def __init__(self):
+        self.queue = deque()
+    
+
+    def push(self, x: int):
+        # there is no pop in the queue
+        self.queue.append(x)
+        for _ in range(len(self.queue) - 1):
+            self.queue.append(self.queue.popleft())
+            # [1, 2, 3]
+            # [2, 3, 1]
+            # [3, 1, 2]
+            # not reverse, just move the last element to the begining
+
+    def pop(self):
+        return self.queue.popleft()
+
+    def top(self):
+        return self.queue[0]
+
+    def empty(self):
+        return not self.queue    
+```
