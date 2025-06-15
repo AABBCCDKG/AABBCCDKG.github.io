@@ -118,7 +118,7 @@ from typing import List
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         stack = []
-        for token in tokens: # the order of iteration is from index 0 to index len(tokens) - 1
+        for token in tokens: # the order of iteration is from index 0 to index len(tokens)
             if token not in '+-*/':
                 stack.append(int(token))
             else:
