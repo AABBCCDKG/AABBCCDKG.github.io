@@ -34,7 +34,7 @@
 </span>    <span class="n">right_branch</span> <span class="o">=</span> <span class="nf">dfs</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="n">root</span><span class="p">.</span><span class="n">right</span><span class="p">)</span> <span class="c1"># right
 </span>    <span class="k">return</span> <span class="n">result</span>
 </code></pre></div></div> <p>BFS</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">collections</span> <span class="kn">import</span> <span class="n">deque</span>
-<span class="k">def</span> <span class="nf">bfs</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">result</span><span class="p">,</span> <span class="n">root</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">bfs</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">root</span><span class="p">):</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">root</span><span class="p">:</span>
         <span class="k">return</span> <span class="p">[]</span>
     <span class="n">queue</span> <span class="o">=</span> <span class="nf">deque</span><span class="p">([</span><span class="n">root</span><span class="p">])</span> <span class="c1"># queue stores node instead of the value of node
@@ -42,7 +42,7 @@
     <span class="k">while</span> <span class="n">queue</span><span class="p">:</span>
         <span class="n">length_of_level</span> <span class="o">=</span> <span class="nf">len</span><span class="p">(</span><span class="n">queue</span><span class="p">)</span>
         <span class="n">level</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">length</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">length_of_level</span><span class="p">):</span>
             <span class="n">node</span> <span class="o">=</span> <span class="n">queue</span><span class="p">.</span><span class="nf">popleft</span><span class="p">()</span>
             <span class="n">level</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="n">val</span><span class="p">)</span>
             <span class="k">if</span> <span class="n">node</span><span class="p">.</span><span class="n">left</span><span class="p">:</span>
