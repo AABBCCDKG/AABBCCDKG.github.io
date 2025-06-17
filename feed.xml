@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://aabbccdkg.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://aabbccdkg.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-06-16T20:48:05+00:00</updated><id>https://aabbccdkg.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Binary Tree, LeetCode</title><link href="https://aabbccdkg.github.io/blog/2025/Tree/" rel="alternate" type="text/html" title="Binary Tree, LeetCode"/><published>2025-06-15T15:32:13+00:00</published><updated>2025-06-15T15:32:13+00:00</updated><id>https://aabbccdkg.github.io/blog/2025/Tree</id><content type="html" xml:base="https://aabbccdkg.github.io/blog/2025/Tree/"><![CDATA[<p>Full Binary Tree (Proper Binary Tree)</p> <ul> <li>every node has either exactly two children or no children.</li> </ul> <p>Perfect Binary Tree (Strictly Full Binary Tree):</p> <ul> <li>Every internal node has two children</li> <li>All leaf nodes appear at the same depth(level).</li> <li>Level (k) start from 0 <ul> <li>Every level has <code class="language-plaintext highlighter-rouge">2^k</code> nodes (Level(k) start from 0).</li> <li>Total nodes: <code class="language-plaintext highlighter-rouge">2^(k+1) - 1</code>.</li> </ul> </li> <li>Level (k) start from 1 <ul> <li>Every level has <code class="language-plaintext highlighter-rouge">2^(k - 1)</code>. nodes (Level(k) start from 0)</li> <li>Total nodes: <code class="language-plaintext highlighter-rouge">2^(k) - 1</code>.</li> </ul> </li> </ul> <p>Complete Binary Tree:</p> <ul> <li>Every level, except possibly the last, is completely filled.</li> <li>In the last level, all nodes are as far left as possible, with no “gaps” between them.</li> <li>heap is a complete binary tree.</li> </ul> <p>Binary Search Tree:</p> <ul> <li>Average case for search and insert: O(log n) when the tree is approximately balanced (each comparison eliminates about half of the remaining nodes).</li> <li>Worst case for search and insert: O(n) if the tree becomes completely unbalanced (degenerates into a chain).</li> <li>Left -&gt; Small, Top -&gt; Medium, Right -&gt; Big</li> <li>No requirement for node structure</li> </ul> <p>Balanced Binary Search Tree:</p> <ul> <li>∀ N: height(N.left) – height(N.right) ≤ 1</li> <li>the basic of map and set (the key in map and the element in set is in order)</li> </ul> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Initialization by Linked List:
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://aabbccdkg.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://aabbccdkg.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-06-17T20:46:38+00:00</updated><id>https://aabbccdkg.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Binary Tree, LeetCode</title><link href="https://aabbccdkg.github.io/blog/2025/Tree/" rel="alternate" type="text/html" title="Binary Tree, LeetCode"/><published>2025-06-15T15:32:13+00:00</published><updated>2025-06-15T15:32:13+00:00</updated><id>https://aabbccdkg.github.io/blog/2025/Tree</id><content type="html" xml:base="https://aabbccdkg.github.io/blog/2025/Tree/"><![CDATA[<p>Full Binary Tree (Proper Binary Tree)</p> <ul> <li>every node has either exactly two children or no children.</li> </ul> <p>Perfect Binary Tree (Strictly Full Binary Tree):</p> <ul> <li>Every internal node has two children</li> <li>All leaf nodes appear at the same depth(level).</li> <li>Level (k) start from 0 <ul> <li>Every level has <code class="language-plaintext highlighter-rouge">2^k</code> nodes (Level(k) start from 0).</li> <li>Total nodes: <code class="language-plaintext highlighter-rouge">2^(k+1) - 1</code>.</li> </ul> </li> <li>Level (k) start from 1 <ul> <li>Every level has <code class="language-plaintext highlighter-rouge">2^(k - 1)</code>. nodes (Level(k) start from 0)</li> <li>Total nodes: <code class="language-plaintext highlighter-rouge">2^(k) - 1</code>.</li> </ul> </li> </ul> <p>Complete Binary Tree:</p> <ul> <li>Every level, except possibly the last, is completely filled.</li> <li>In the last level, all nodes are as far left as possible, with no “gaps” between them.</li> <li>heap is a complete binary tree.</li> </ul> <p>Binary Search Tree:</p> <ul> <li>Average case for search and insert: O(log n) when the tree is approximately balanced (each comparison eliminates about half of the remaining nodes).</li> <li>Worst case for search and insert: O(n) if the tree becomes completely unbalanced (degenerates into a chain).</li> <li>Left -&gt; Small, Top -&gt; Medium, Right -&gt; Big</li> <li>No requirement for node structure</li> </ul> <p>Balanced Binary Search Tree:</p> <ul> <li>∀ N: height(N.left) – height(N.right) ≤ 1</li> <li>the basic of map and set (the key in map and the element in set is in order)</li> </ul> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Initialization by Linked List:
 </span><span class="k">class</span> <span class="nc">ListNode</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">val</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">left</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span> <span class="n">right</span> <span class="o">=</span> <span class="bp">None</span><span class="p">):</span>
         <span class="n">self</span><span class="p">.</span><span class="n">val</span> <span class="o">=</span> <span class="n">val</span>
@@ -395,6 +395,219 @@
                     <span class="n">queue</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="n">right</span><span class="p">)</span>
             <span class="n">result</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">level</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">result</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</code></pre></div></div> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Rock</span> <span class="n">find</span> <span class="n">the</span> <span class="n">email</span>
+<span class="n">Jeff</span> <span class="n">email</span>
+<span class="n">Nacy</span><span class="p">:</span> <span class="n">linancy</span><span class="nd">@amazon.com</span>
+</code></pre></div></div> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"""
+
+Given two strings s and t of lengths m and n respectively, return the minimum window substring of s such that every character in t (including duplicates) is included in the window. If there is no such substring, return the empty string "".
+
+The testcases will be generated such that the answer is unique.
+
+ 
+
+Example 1:
+
+Input: s = "ADOBECODEBANC", t = "ABC"
+Output: "BANC"
+Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from string t.
+Example 2:
+
+Input: s = "a", t = "a"
+Output: "a"
+Explanation: The entire string s is the minimum window.
+Example 3:
+
+Input: s = "a", t = "aa"
+Output: ""
+Explanation: Both 'a's from t must be included in the window.
+Since the largest window of s only has one 'a', return empty string.
+ 
+
+Constraints:
+
+m == s.length
+n == t.length
+1 &lt;= m, n &lt;= 105
+s and t consist of uppercase and lowercase English letters.
+ 
+
+Follow up: Could you find an algorithm that runs in O(m + n) time?
+
+
+"""
+"""
+sliding window -&gt; iterate the str s
+simulate the substring
+
+hashmap -&gt; record the ocurrance of character while doing the iteration
+
+
+Input: s = "ADOBECODEBANC", t = "ABC"
+Output: "BANC"
+
+need_hashmap = {'A': 1, 'B': 1, 'C': 1}
+window = {}
+have = 0
+required = len(t)
+have == testcases
+left, right: boundary of window
+right -&gt; A (index 0 in s) window['A'] = 1
+right -&gt; D (index 1 in s) 
+right -&gt; B window['B'] = 1
+
+TC: O(len(s) + len(t))
+SC:O(max(len(s), len(t)))
+
+"""
+from collections import Counter
+
+class Solution:
+    def minWindow(self, s: str, t: str) -&gt; str:
+        need_hashmap = Counter(t)
+        window_hashmap = {}
+        required_length = len(need_hashmap)
+        current = 0
+
+        left = 0
+        right = 0
+        min_length = float('inf')
+        ans_left, ans_right = 0, 0
+
+        while right &lt; len(s):
+            char = s[right]
+            if char in need_hashmap:
+                window_hashmap[char] = window_hashmap.get(char, 0) + 1
+                if window_hashmap[char] == need_hashmap[char]:
+                    current += 1
+            while left &lt;= right and current == required_length:
+                _size = right - left + 1 # right - left -&gt; [left, right)
+                # update the ans_left, ans_right
+                if _size &lt; min_length:
+                    min_length = _size
+                    ans_left, ans_right = left, right
+                left_char = s[left]
+                # print(left_char)
+                if left_char in need_hashmap:
+                    window_hashmap[left_char] -= 1
+                    if window_hashmap[left_char] &lt; need_hashmap[left_char]:
+                        current -= 1
+                left += 1
+            right += 1
+        # print(min_length)
+        return s[ans_left:ans_right + 1] if min_length != float('inf') else ''
+solver = Solution()
+print('check',solver.minWindow("ADOBECODEBANC", "ABC"))
+print('check',solver.minWindow("a", "a"))
+print('check',solver.minWindow("a", "aa"))
+
+
+
+"""
+Number of Paths
+You’re testing a new driverless car that is located at the Southwest (bottom-left) corner of an n×n grid. The car is supposed to get to the opposite, Northeast (top-right), corner of the grid. Given n, the size of the grid’s axes, write a function numOfPathsToDest that returns the number of the possible paths the driverless car can take.
+
+
+the car may move only in the white squares
+
+For convenience, let’s represent every square in the grid as a pair (i,j). The first coordinate in the pair denotes the east-to-west axis, and the second coordinate denotes the south-to-north axis. The initial state of the car is (0,0), and the destination is (n-1,n-1).
+
+The car must abide by the following two rules: it cannot cross the diagonal border. In other words, in every step the position (i,j) needs to maintain i &gt;= j. See the illustration above for n = 5. In every step, it may go one square North (up), or one square East (right), but not both. E.g. if the car is at (3,1), it may go to (3,2) or (4,1).
+
+Explain the correctness of your function, and analyze its time and space complexities.
+
+Example:
+
+5. [N] [N] [N] [N] [ ]
+4. [N] [N] [N] [ ] [ ]
+3. [N] [N] [ ] [ ] [ ]
+2. [N] [ ] [ ] [ ] [ ]
+1. [ ] [ ] [ ] [ ] [ ]
+0.    1   2   3   4   5
+
+input:  n = 4
+
+output: 5 # since there are five possibilities:
+          # “EEENNN”, “EENENN”, “ENEENN”, “ENENEN”, “EENNEN”,
+          # where the 'E' character stands for moving one step
+          # East, and the 'N' character stands for moving one step
+          # North (so, for instance, the path sequence “EEENNN”
+          # stands for the following steps that the car took:
+          # East, East, East, North, North, North)
+Constraints:
+
+[time limit] 5000ms
+
+[input] integer n
+
+1 ≤ n ≤ 100
+[output] integer
+
+
+dp[][]
+border: 
+    
+
+
+3 [a, b, c, 1]
+2 [a, b, 1, d]
+1 [a, 1, 2, d]
+0 [1, 1, 1, d]
+   0, 1, 2, 3
+n = 4
+target: (3, 3)
+
+dp[0][0] = 1
+dp[1][0] = 1
+dp[1][1] = 1
+dp[2][0] = 1
+dp[2][1] = dp[1][1] + dp[2][0] = 1 + 1 =2
+
+dp[i][0] = 1 (from (0, 0) to (i, 0))
+dp[i][i] = 1 (diagonal)
+dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
+return dp[n - 1][n - 1]
+"""
+
+
+
+def num_of_paths_to_dest(n: int) -&gt; int:
+    dp = [[0] * n for _ in range(n)]
+    for i in range(n):
+        dp[i][0] = 1
+        dp[i][i] = 1
+
+    for i in range(1, n):
+        for j in range(1, i + 1):
+            dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
+    return dp[n - 1][n - 1]
+
+
+print(num_of_paths_to_dest(4))
+print(num_of_paths_to_dest(3))
+print(num_of_paths_to_dest(17))
+
+"""
+input:  n = 4, 3, 17
+output: 5, 2, 35357670
+"""
+
+
+【Attention】Great opportunities from TikTok
+Hi Wen, 
+
+Hope you are doing well! This is Xuewei from TikTok Talent Acquisition team.
+
+We are opening Software Engineer positions for our TikTok San Jose Office. Please share an updated copy of your resume if you are interested in it! 
+
+Look forward to hearing back from you. 
+
+Kind regards,
+
+Xuewei Liu
+TikTok Acquisition Team
+Email: xueweiliu@bytedance.com
+https://www.linkedin.com/in/xuewei-liu-03b593334/
 </code></pre></div></div>]]></content><author><name></name></author><category term="LeetCode"/><category term="LeetCode"/><summary type="html"><![CDATA[LeetCode problems related to Tree]]></summary></entry><entry><title type="html">NVIDIA, LeetCode</title><link href="https://aabbccdkg.github.io/blog/2025/Nvidia/" rel="alternate" type="text/html" title="NVIDIA, LeetCode"/><published>2025-06-14T16:32:13+00:00</published><updated>2025-06-14T16:32:13+00:00</updated><id>https://aabbccdkg.github.io/blog/2025/Nvidia</id><content type="html" xml:base="https://aabbccdkg.github.io/blog/2025/Nvidia/"><![CDATA[<p><a href="https://leetcode.com/problems/product-of-array-except-self/description/?envType=company&amp;envId=nvidia&amp;favoriteSlug=nvidia-three-months">238. Product of Array Except Self</a></p> <p>When there are no elements to multiple at a certain position, the product should be initialized as <code class="language-plaintext highlighter-rouge">1</code>, since <code class="language-plaintext highlighter-rouge">1</code> is the identity element for multiplication and does not affect the overall result. That is the reason why <code class="language-plaintext highlighter-rouge">left_prod</code> and <code class="language-plaintext highlighter-rouge">right_prod</code> are both initialized as <code class="language-plaintext highlighter-rouge">1</code>.</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">typing</span> <span class="kn">import</span> <span class="n">List</span>
 <span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">productExceptSelf</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
