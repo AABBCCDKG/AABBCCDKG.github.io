@@ -17,13 +17,13 @@ Hi 👋 I'm an undergraduate student majoring in **Computer Science** at **Purdu
 
 I’m currently seeking full-time opportunities in **Software Engineering (SWE)**, **Machine Learning Engineering (MLE)**, and **Quantitative Research/Development (Quant)**.
 
-In **Fall 2025**, I will join **Amazon Web Services (AWS Fintech)** as a **Software Engineer Intern**.
+In Fall 2025, I will join Amazon Web Services (AWS Fintech) as a Software Engineer Intern.
 
-As a **Research Assistant** at the Purdue AI Lab, I worked under [**Prof. Yexiang Xue**](https://www.cs.purdue.edu/homes/yexiang/) on **physics-informed deep learning**. I developed [models](https://royal-celestite-49a.notion.site/Motion-Prediction-through-Physical-Laws-b75fba68cf2f414e9ebd9f84c0db00d7) that improve video motion prediction by integrating neural networks with physical laws, helping bridge the gap between data-driven and physically-grounded modeling.
+As a Research Assistant at the Purdue AI Lab, I worked under [Prof. Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/) on physics-informed deep learning. I developed [models](https://royal-celestite-49a.notion.site/Motion-Prediction-through-Physical-Laws-b75fba68cf2f414e9ebd9f84c0db00d7) that improve video motion prediction by integrating neural networks with physical laws, helping bridge the gap between data-driven and physically-grounded modeling.
 
-My passion for intelligent robotics led me to the [Purdue Aerial Robotics Team](https://www.purdueaerial.com/), where I helped design a **drone control system** that interprets **hand-drawn sketches** using **GANs** and vision models to guide autonomous flight.
+My passion for intelligent robotics led me to the [Purdue Aerial Robotics Team](https://www.purdueaerial.com/), where I helped design a drone control system that interprets hand-drawn sketches using GANs and vision models to guide autonomous flight.
 
-Previously, I interned at the [Bank of China](https://www.boc.cn/en/) as a **Software Engineer**, where I built a **symbolic regression system** to predict customer satisfaction using structured financial data.
+Previously, I interned at the [Bank of China](https://www.boc.cn/en/) as a Software Engineer, where I built a symbolic regression system to predict customer satisfaction using structured financial data.
 
 I also participated in [Y Combinator’s AI Startup School](https://events.ycombinator.com/ai-sus).
 
