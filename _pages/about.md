@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi👋 I am an undergraduate student pursuing a Bachelor's Degree in Computer Science at the College of Science, Purdue University, West Lafayette. 
 
-I’m actively seeking opportunities in **Software Engineering (SWE)**, **Machine Learning Engineering (MLE)**, and **Quantitative Research/Development (Quant)** — fields where I can apply my technical skills to solve real-world problems.
+I’m actively seeking full-time opportunities in **Software Engineering (SWE)**, **Machine Learning Engineering (MLE)**, and **Quantitative Research/Development (Quant)**.
 
 ### ⚡️My experience
 **Software Engineer Intern**  
