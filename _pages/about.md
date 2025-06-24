@@ -17,16 +17,16 @@ Hi👋 I am an undergraduate student pursuing a Bachelor of Science Degree in Co
 
 ### My past experience
 **Software Engineer Intern**  
-*Amazon Web Services (AWS) · Seattle, WA · Jun 2025 – Present*  
+*Amazon Web Services (AWS) · Seattle, WA · Aug 2025 – Present*  
 Worked on scalable backend services supporting production reliability.
-
-**Undergraduate Research Assistant**  
-*Purdue AI Lab · Jan 2024 – Present*  
-Built physics-informed deep learning models for video motion prediction.
 
 **AI Startup School Participant**  
 *Y Combinator · San Francisco · Jun 2025*  
 Collaborated on building generative AI applications from scratch.
+
+**Undergraduate Research Assistant**  
+*Purdue AI Lab · Jan 2024 – Present*  
+Built physics-informed deep learning models for video motion prediction.
 
 **Technical Team Member**  
 *Purdue Aerial Robotics (VIP Program) · Jan 2024 – May 2025*  
