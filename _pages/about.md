@@ -8,7 +8,8 @@ profile:
   image: personal.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-
+    <p>Last updated:</p>
+    <p>June 24, 2025</p>
 news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
@@ -36,4 +37,3 @@ I also participated in [Y Combinator’s AI Startup School](https://events.ycomb
 - ✏️ [**SketchTune**](https://github.com/AABBCCDKG/clip_on_sketch): Fine-tuned the CLIP model on the Sketchy database to improve sketch-image retrieval.
 - 📬 [**Gmaillm**](https://github.com/AABBCCDKG/gmaillm): An AI-powered Gmail assistant that summarizes important messages and filters out noise.
 
-_Last updated: June 24, 2025_
