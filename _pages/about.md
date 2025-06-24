@@ -33,7 +33,7 @@ I also participated in [Y Combinator’s AI Startup School](https://events.ycomb
 
 - 🔁 [**EchoGen**](https://github.com/AABBCCDKG/EchoGen): An iterative optimization framework that refines LLM outputs through multi-round feedback.
 - 🧬 [**SmartGA**](https://github.com/AABBCCDKG/LLM-guided_GA_for_function_fitting): Uses LLMs to guide the evolutionary direction of Genetic Algorithms for function fitting.
-- ✏️ [**SketchTune**](https://github.com/AABBCCDKG/clip_on_sketch): Fine-tuned the CLIP model on the **Sketchy** database to improve sketch-image retrieval.
+- ✏️ [**SketchTune**](https://github.com/AABBCCDKG/clip_on_sketch): Fine-tuned the CLIP model on the Sketchy database to improve sketch-image retrieval.
 - 📬 [**Gmaillm**](https://github.com/AABBCCDKG/gmaillm): An AI-powered Gmail assistant that summarizes important messages and filters out noise.
 
 _Last updated: June 24, 2025_
