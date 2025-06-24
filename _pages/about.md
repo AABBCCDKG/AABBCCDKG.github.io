@@ -16,6 +16,10 @@ social: true # includes social icons at the bottom of the page
 
 Hi👋 I am an undergraduate student pursuing a Bachelor of Science Degree in Computer Science at the College of Science, Purdue University, West Lafayette. 
 
+I’m particularly passionate about careers in **Artificial Intelligence (AI)**, **Software Engineering (SWE)**, **Machine Learning Engineering (MLE)**, and **Quantitative Research/Development (Quant)**.
+
+
+
 ### My past experience
 **Software Engineer Intern**  
 *Amazon Web Services (AWS) · Seattle, WA · Aug 2025 – Present*  
@@ -36,7 +40,6 @@ Designed drone control system using hand-drawn sketches + GANs.
 **Software Engineer Intern**  
 *Bank of China · Shanghai · Jun 2023 – Aug 2023*  
 Developed a symbolic regression model for customer satisfaction prediction.
-
 
 🌱 So far, I have attempted some interesting personal projects, such as:
 
