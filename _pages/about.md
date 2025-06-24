@@ -13,36 +13,25 @@ profile:
 news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
+Hi 👋 I'm an undergraduate student majoring in **Computer Science** at **Purdue University**, College of Science.
 
-Hi👋 I am an undergraduate student pursuing a Bachelor's Degree in Computer Science at the College of Science, Purdue University, West Lafayette. 
+I’m currently seeking full-time opportunities in **Software Engineering (SWE)**, **Machine Learning Engineering (MLE)**, and **Quantitative Research/Development (Quant)**.
 
-I’m actively seeking full-time opportunities in **Software Engineering (SWE)**, **Machine Learning Engineering (MLE)**, and **Quantitative Research/Development (Quant)**.
+In **Fall 2025**, I will join **Amazon Web Services (AWS Fintech)** as a **Software Engineer Intern**.
 
-### ⚡️My experience
-**Software Engineer Intern**  
-*Amazon Web Services (AWS) · Seattle, WA · Aug 2025 – Present*  
+As a **Research Assistant** at the Purdue AI Lab, I worked under [**Prof. Yexiang Xue**](https://www.cs.purdue.edu/homes/yexiang/) on **physics-informed deep learning**. I developed [models](https://royal-celestite-49a.notion.site/Motion-Prediction-through-Physical-Laws-b75fba68cf2f414e9ebd9f84c0db00d7) that improve video motion prediction by integrating neural networks with physical laws, helping bridge the gap between data-driven and physically-grounded modeling.
 
+My passion for intelligent robotics led me to the [Purdue Aerial Robotics Team](https://www.purdueaerial.com/), where I helped design a **drone control system** that interprets **hand-drawn sketches** using **GANs** and vision models to guide autonomous flight.
 
-**AI Startup School Participant**  
-*Y Combinator · San Francisco · Jun 2025*  
-Collaborated on building generative AI applications from scratch.
+Previously, I interned at the [Bank of China](https://www.boc.cn/en/) as a **Software Engineer**, where I built a **symbolic regression system** to predict customer satisfaction using structured financial data.
 
-**Undergraduate Research Assistant**  
-*Purdue AI Lab · Jan 2024 – Present*  
-Built physics-informed deep learning models for video motion prediction.
+I also participated in [Y Combinator’s AI Startup School](https://events.ycombinator.com/ai-sus), collaborating with other innovators to build generative AI applications from scratch.
 
-**Technical Team Member**  
-*Purdue Aerial Robotics (VIP Program) · Jan 2024 – May 2025*  
-Designed drone control system using hand-drawn sketches + GANs.
+---
 
-**Software Engineer Intern**  
-*Bank of China · Shanghai · Jun 2023 – Aug 2023*  
-Developed a symbolic regression model for customer satisfaction prediction.
+🌱 **Selected Personal Projects:**
 
-🌱 So far, I have attempted some interesting personal projects, such as:
-
-- [EchoGen](https://github.com/AABBCCDKG/EchoGen): An iterative optimization system that refines LLM-generated results through iterative feedback.
-- [SmartGA](https://github.com/AABBCCDKG/LLM-guided_GA_for_function_fitting): Using LLM to guide the direction of the evolution of the Genetic Algorithm.
-- [SketchTune](https://github.com/AABBCCDKG/clip_on_sketch): Fine-tuning the CLIP model on the sketch (The Sketchy Database).
-- [Gmaillm](https://github.com/AABBCCDKG/gmaillm): Utilizing LLM to summarize important Gmail messages and discard irrelevant ones.
-
+- 🔁 [**EchoGen**](https://github.com/AABBCCDKG/EchoGen): An iterative optimization framework that refines LLM outputs through multi-round feedback.
+- 🧬 [**SmartGA**](https://github.com/AABBCCDKG/LLM-guided_GA_for_function_fitting): Uses LLMs to guide the evolutionary direction of Genetic Algorithms for function fitting.
+- ✏️ [**SketchTune**](https://github.com/AABBCCDKG/clip_on_sketch): Fine-tuned the CLIP model on the **Sketchy** database to improve sketch-image retrieval.
+- 📬 [**Gmaillm**](https://github.com/AABBCCDKG/gmaillm): An AI-powered Gmail assistant that summarizes important messages and filters out noise.
