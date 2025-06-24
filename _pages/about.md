@@ -13,13 +13,29 @@ news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi👋 I am an undergraduate student pursuing a Bachelor’s Degree in Computer Science at the College of Science, Purdue University, West Lafayette. 
+Hi👋 I am an undergraduate student pursuing a Bachelor of Science Degree in Computer Science at the College of Science, Purdue University, West Lafayette. 
 
-I led a project titled "[Video Prediction through Physical Laws](https://github.com/AABBCCDKG/Video_prediction_through_physical_laws)" under the guidance of Ph.D. candidate [Max](https://www.cs.purdue.edu/people/graduate-students/jacobs57.html) and Assistant Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/) during the summer 2024. Existing models for prediction often need large datasets and struggle with complex motions, especially with limited data. We present a framework for predicting object motion by leveraging known physical laws to reduce the reliance on large datasets and enhances the model’s ability to predict complex and abrupt motions.
+### My past experience
+**Software Engineer Intern**  
+*Amazon Web Services (AWS) · Seattle, WA · Jun 2025 – Present*  
+Worked on scalable backend services supporting production reliability.
 
-I joined the [Vertically Integrated Program](https://engineering.purdue.edu/VIP) from January 2024 to May 2024, where I worked with the Purdue Aerial Robotics Team under the IEEE chapter's PART committee. I introduced hand-drawn sketches as a more precise input method for drone-based item transport, trained a GAN-based neural network for image-to-sketch conversion.
+**Undergraduate Research Assistant**  
+*Purdue AI Lab · Jan 2024 – Present*  
+Built physics-informed deep learning models for video motion prediction.
 
-Before transferring to Purdue University, I studied Communication Engineering at Northeastern University (China) for one year and a half. There, I had the honor of serving as a Teaching Assistant under the guidance of [Dr. Peng Han](https://graduate.neuq.edu.cn/info/1016/4552.htm) in Fall 2023.
+**AI Startup School Participant**  
+*Y Combinator · San Francisco · Jun 2025*  
+Collaborated on building generative AI applications from scratch.
+
+**Technical Team Member**  
+*Purdue Aerial Robotics (VIP Program) · Jan 2024 – May 2025*  
+Designed drone control system using hand-drawn sketches + GANs.
+
+**Software Engineer Intern**  
+*Bank of China · Shanghai · Jun 2023 – Aug 2023*  
+Developed a symbolic regression model for customer satisfaction prediction.
+
 
 🌱 So far, I have attempted some interesting personal projects, such as:
 
