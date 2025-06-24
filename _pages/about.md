@@ -25,7 +25,7 @@ My passion for intelligent robotics led me to the [Purdue Aerial Robotics Team](
 
 Previously, I interned at the [Bank of China](https://www.boc.cn/en/) as a **Software Engineer**, where I built a **symbolic regression system** to predict customer satisfaction using structured financial data.
 
-I also participated in [Y Combinator’s AI Startup School](https://events.ycombinator.com/ai-sus)
+I also participated in [Y Combinator’s AI Startup School](https://events.ycombinator.com/ai-sus).
 
 ---
 
