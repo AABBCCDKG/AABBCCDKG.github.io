@@ -8,20 +8,20 @@ profile:
   image: personal.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
+    <p> Purdue: 2024.1 - Present</p>
     <p>NEU(CN): 2022.9 - 2023.12 </p>
-    <p>Purdue: 2024.1 - Present</p>  
 news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi👋 I am an undergraduate student pursuing a Bachelor of Science Degree in Computer Science at the College of Science, Purdue University, West Lafayette. 
+Hi👋 I am an undergraduate student pursuing a Bachelor's Degree in Computer Science at the College of Science, Purdue University, West Lafayette. 
 
-I’m particularly passionate about careers in **Artificial Intelligence (AI)**, **Software Engineering (SWE)**, **Machine Learning Engineering (MLE)**, and **Quantitative Research/Development (Quant)**.
+I’m actively seeking opportunities in **Software Engineering (SWE)**, **Machine Learning Engineering (MLE)**, and **Quantitative Research/Development (Quant)** — fields where I can apply my technical skills to solve real-world problems.
 
-### ⚡️My past experience
+### ⚡️My experience
 **Software Engineer Intern**  
 *Amazon Web Services (AWS) · Seattle, WA · Aug 2025 – Present*  
-Worked on scalable backend services supporting production reliability.
+
 
 **AI Startup School Participant**  
 *Y Combinator · San Francisco · Jun 2025*  
