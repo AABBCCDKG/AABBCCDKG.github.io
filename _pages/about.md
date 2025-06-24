@@ -13,7 +13,8 @@ profile:
 news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
-Hi 👋 I'm an undergraduate student majoring in **Computer Science** at **Purdue University**, College of Science.
+Hi 👋 I'm an undergraduate student majoring in **Computer Science** at **Purdue University**, College of Science. Before transferring to Purdue, I studied **Electrical and Computer Engineering** at **Northeastern University (China)**
+
 
 I’m currently seeking full-time opportunities in **Software Engineering (SWE)**, **Machine Learning Engineering (MLE)**, and **Quantitative Research/Development (Quant)**.
 
