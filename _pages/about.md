@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 Hi 👋 I'm an undergraduate student majoring in **Computer Science** at **Purdue University**, College of Science. Before transferring to Purdue, I studied **Communication Engineering** at **Northeastern University (China)** for one year and a half.
 
 
-I’m currently seeking full-time opportunities in **Software Engineering (SWE)**, **Machine Learning Engineering (MLE)**, and **Quantitative Research/Development (Quant)**.
+I’m currently seeking full-time opportunities in Software Engineering (SWE), Machine Learning Engineering (MLE), and Quantitative Research/Development (Quant).
 
 In Fall 2025, I will join Amazon Web Services (AWS Fintech) as a Software Engineer Intern.
 
