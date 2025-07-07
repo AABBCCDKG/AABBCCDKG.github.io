@@ -15,20 +15,11 @@ social: true # includes social icons at the bottom of the page
 ---
 Hi 👋 I'm an undergraduate student majoring in Computer Science at Purdue University. Before transferring to Purdue, I studied Communication Engineering at Northeastern University (China) for one year and a half.
 
-
-I’m currently seeking full-time opportunities in Software Engineering (SWE), Machine Learning Engineering (MLE), and Quantitative Research/Development (Quant).
-
-In Fall 2025, I will join Amazon Web Services (AWS Fintech) as a Software Engineer Intern.
-
-As a Research Assistant at the Purdue AI Lab, I worked under [Prof. Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/) on physics-informed deep learning. I developed [models](https://royal-celestite-49a.notion.site/Motion-Prediction-through-Physical-Laws-b75fba68cf2f414e9ebd9f84c0db00d7) that improve video motion prediction by integrating neural networks with physical laws, helping bridge the gap between data-driven and physically-grounded modeling.
-
-My passion for intelligent robotics led me to the [Purdue Aerial Robotics Team](https://www.purdueaerial.com/), where I helped design a drone control system that interprets hand-drawn sketches using GANs and vision models to guide autonomous flight.
-
-Previously, I interned at the [Bank of China](https://www.boc.cn/en/) as a Software Engineer, where I built a symbolic regression system to predict customer satisfaction using structured financial data.
-
-I also participated in [Y Combinator’s AI Startup School](https://events.ycombinator.com/ai-sus).
+I’ve interned at Amazon AWS (upcoming) and the Bank of China (Shanghai), and conducted [research](https://royal-celestite-49a.notion.site/Motion-Prediction-through-Physical-Laws-b75fba68cf2f414e9ebd9f84c0db00d7) on physics-informed deep learning under [Prof. Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/) at Purdue AI Lab. I’m also a member of the Purdue Aerial Robotics Team and a participant in Y Combinator’s AI Startup School.
 
 ---
+
+
 
 🌱 **Selected Personal Projects:**
 
