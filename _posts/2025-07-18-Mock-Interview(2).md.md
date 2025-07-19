@@ -10,6 +10,17 @@ tabs: true
 
 [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
 
+Key Feature:
+- The core challenge is to match character frequencies exactly - not just whether the character appears, but whether it appears the correct number of times as specified by `t`
+
+Core Solution Strategy:
+- An additional hashmap `window_counts`
+    - Tracks the frequency of each character in the current window
+    - Used to compare againt the target frequency map `dict_t`
+- An extra variable `formed`
+    - Keeps count of how many characters in the current window have their frequency exactly equal to what `t` requires
+    - When `formed == required` (where `required = len(dict_t)`), it means that the window is valid
+
 Part 1: Count the Frequency of characters in `t`
 ```python
 # Firts way
@@ -67,8 +78,6 @@ class Solution:
         # min_length == float('inf') means throughout the entire traversal, no valid window that satisfies the condition was ever found,
         #  so min_length was never updated: no need to do the check: if len(s) < len(t)
 ```
-
-
 
 [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 
