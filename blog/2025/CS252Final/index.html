@@ -85,17 +85,84 @@ void sortCommand(const char * file) {
     perror("exec failed");
     exit(1);
 }
-</code></pre> <p><code class="language-plaintext highlighter-rouge">sort &lt; infile.txt | grep hello &gt;&gt; output.txt</code>: 读取<code class="language-plaintext highlighter-rouge">file.txt</code>的内容并排序，从中找到包含<code class="language-plaintext highlighter-rouge">hello</code>的行，添加到<code class="language-plaintext highlighter-rouge">output.txt</code>的结尾</p> <ul> <li>sort: <ul> <li>读取从STDIN 变成infile.txt</li> <li>输出从STDOUT变成pipeline写端</li> </ul> </li> <li>grep: <ul> <li>读取从STDIN变成pipeline读端</li> <li> <p>输出从STDOUT变成output.txt ```C //grepsort arg1 arg2 arg3 = sort &lt; arg2 | grep arg1 » arg3 //参数应该是, argv[0] = grepsort, argv[1] = arg1 void grepsort(char * argv[]){ int fd[2]; //一个管道即可,因为只有一个管道符号 | if (pipe(fd) == -1){ perror(“pipe failed”); exit(1); } int pid1 = fork(); //不要忘记检查fork if (pid1 == -1) { perror(“fork1 failed”); exit(1); } //fork成功，还有父子进程之分 if (pid1 == 0){ close(fd[0]); //子进程1: sort &lt; infile.txt | -&gt; 写入管道 int fd_in = open(argv[2], O_RDONLY); if (fd_in == -1){ perror(“open infile failed”); exit(1); } //这里的输入来自infile.txt, 输出是去管道，所以有两个dup2 if(dup2(fd_in, STDIN_FILENO) == -1){ // dup2(A, STDIN_FILENO): 标准输入来自A perror(“dup2 from infile.txt failed”); exit(1); } if(dup2(fd[1], STDOUT_FILENO) == -1){ //标准输出来自fd[1] perror(“dup2 to pipe failed”); exit(1); } close(fd_in); close(fd[1]);</p> <p>char * argv1[] = {“sort”, NULL}; execvp(“sort”, argv1); perror(“sort exec failed”); exit(1); }</p> </li> </ul> <p>int pid2 = fork(); if (pid2 == -1) { perror(“fork2 failed”); exit(1); } if (pid2 == 0) { close(fd[1]); int fd_out = open(argv[3], O_WRONLY | O_CREAT | O_APPEND, 0644); if (fd_out == -1) { perror(“open output failed”); exit(1); } if(dup2(fd_out, STDOUT_FILENO) == -1){ perror(“dup2 for writing failed”); exit(1); } if (dup2(fd[0], STDIN_FILENO) == -1){ perror(“dup2 for pipe reading failed”); exit(1); } close(fd_out); close(fd[0]);</p> <div class="language-plaintext highlighter-rouge"> <div class="highlight"><pre class="highlight"><code>  char * argv2[] = {"grep", argv[1], NULL};
-  execvp("grep", argv2);
-  perror("grep exec failed");
-  exit(1);   }   close(fd[0]);   close(fd[1]);   wait(pid1, NULL, 0);   wait(pid2, NULL, 0); }
-</code></pre></div> </div> </li> </ul> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`print entries`就是打印每一行的意思 `entries = lines`
+</code></pre> <p><code class="language-plaintext highlighter-rouge">sort &lt; infile.txt | grep hello &gt;&gt; output.txt</code>: 读取<code class="language-plaintext highlighter-rouge">file.txt</code>的内容并排序，从中找到包含<code class="language-plaintext highlighter-rouge">hello</code>的行，添加到<code class="language-plaintext highlighter-rouge">output.txt</code>的结尾</p> <ul> <li>sort: <ul> <li>读取从STDIN 变成infile.txt</li> <li>输出从STDOUT变成pipeline写端</li> </ul> </li> <li>grep: <ul> <li>读取从STDIN变成pipeline读端</li> <li>输出从STDOUT变成output.txt</li> </ul> </li> </ul> <pre><code class="language-C">//grepsort arg1 arg2 arg3 = sort &lt; arg2 | grep arg1 &gt;&gt; arg3
+//参数应该是, argv[0] = grepsort, argv[1] = arg1
+void grepsort(char * argv[]){
+    int fd[2]; //一个管道即可,因为只有一个管道符号 | 
+    if (pipe(fd) == -1){
+        perror("pipe failed");
+        exit(1);
+    }
+    int pid1 = fork();
+    //不要忘记检查fork
+    if (pid1 == -1) {
+        perror("fork1 failed");
+        exit(1);
+    }
+    //fork成功，还有父子进程之分
+    if (pid1 == 0){
+        close(fd[0]);
+        //子进程1: sort &lt; infile.txt | -&gt; 写入管道
+        int fd_in = open(argv[2], O_RDONLY);
+        if (fd_in == -1){
+            perror("open infile failed");
+            exit(1);
+        }
+        //这里的输入来自infile.txt, 输出是去管道，所以有两个dup2
+        if(dup2(fd_in, STDIN_FILENO) == -1){
+            // dup2(A, STDIN_FILENO): 标准输入来自A
+            perror("dup2 from infile.txt failed");
+            exit(1);
+        }
+        if(dup2(fd[1], STDOUT_FILENO) == -1){
+            //标准输出来自fd[1]
+            perror("dup2 to pipe failed");
+            exit(1);
+        }
+        close(fd_in);
+        close(fd[1]);
 
-`sort &lt; infile.txt | grep hello &gt;&gt; output.txt`这本身就是一个`bash`命令，所以如果要用`program`来实现它，一定不是用`bash`，而是用`C`.
+        char * argv1[] = {"sort", NULL};
+        execvp("sort", argv1);
+        perror("sort exec failed");
+        exit(1);
+    }
 
-Question 2:
-```C
-int runCommand(char * command, char * outputBuffer, int maxBufferSize){
+    int pid2 = fork();
+    if (pid2 == -1) {
+        perror("fork2 failed");
+        exit(1);
+    }
+    if (pid2 == 0) {
+        close(fd[1]);
+        int fd_out = open(argv[3], O_WRONLY | O_CREAT | O_APPEND, 0644);
+        if (fd_out == -1) {
+            perror("open output failed");
+            exit(1);
+        }
+        if(dup2(fd_out, STDOUT_FILENO) == -1){
+            perror("dup2 for writing failed");
+            exit(1);
+        }
+        if (dup2(fd[0], STDIN_FILENO) == -1){
+            perror("dup2 for pipe reading failed");
+            exit(1);
+        }
+        close(fd_out);
+        close(fd[0]);
+
+        char * argv2[] = {"grep", argv[1], NULL};
+        execvp("grep", argv2);
+        perror("grep exec failed");
+        exit(1);
+    }
+    close(fd[0]);
+    close(fd[1]);
+    wait(pid1, NULL, 0);
+    wait(pid2, NULL, 0);
+}
+
+</code></pre> <p><code class="language-plaintext highlighter-rouge">print entries</code>就是打印每一行的意思 <code class="language-plaintext highlighter-rouge">entries = lines</code></p> <p><code class="language-plaintext highlighter-rouge">sort &lt; infile.txt | grep hello &gt;&gt; output.txt</code>这本身就是一个<code class="language-plaintext highlighter-rouge">bash</code>命令，所以如果要用<code class="language-plaintext highlighter-rouge">program</code>来实现它，一定不是用<code class="language-plaintext highlighter-rouge">bash</code>，而是用<code class="language-plaintext highlighter-rouge">C</code>.</p> <p>Question 2:</p> <pre><code class="language-C">int runCommand(char * command, char * outputBuffer, int maxBufferSize){
     int fd[2];
     if (pipe(fd) == -1) {
         perror("pipe failed");
@@ -137,7 +204,7 @@ int runCommand(char * command, char * outputBuffer, int maxBufferSize){
     wait(pid, &amp;status, 0);
     return (bytesRead &lt; 0 || !WIFEXITED(status)) ? -1 : 0;
 }
-</code></pre></div></div> <p>Question3:</p> <p><code class="language-plaintext highlighter-rouge">make them synchronized</code>: 让他们变得线程安全</p> <p><code class="language-plaintext highlighter-rouge">insert()</code> -&gt; 生产者; <code class="language-plaintext highlighter-rouge">removeFirst()</code> -&gt; 消费者</p> <p><code class="language-plaintext highlighter-rouge">semaphores</code>: 信号量(资源计数器)</p> <pre><code class="language-C">struct List * head = NULL;
+</code></pre> <p>Question3:</p> <p><code class="language-plaintext highlighter-rouge">make them synchronized</code>: 让他们变得线程安全</p> <p><code class="language-plaintext highlighter-rouge">insert()</code> -&gt; 生产者; <code class="language-plaintext highlighter-rouge">removeFirst()</code> -&gt; 消费者</p> <p><code class="language-plaintext highlighter-rouge">semaphores</code>: 信号量(资源计数器)</p> <pre><code class="language-C">struct List * head = NULL;
 pthread_mutex_t mutexLock;
 sema_t fullSem;
 sema_t emptySem;
