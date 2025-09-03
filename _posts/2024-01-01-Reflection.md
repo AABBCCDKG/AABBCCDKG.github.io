@@ -18,6 +18,8 @@ Sep 1, TikTok Search Ads NG HM:
 
 - 简历匹配极其重要，甚至比Coding还重要。每次面试时，至少有一个通宵来定制简历
 
-
 Aug 28, TikTok Search Ads NG Sec:
 - 漏抄了一行导致无限循环runtime error
+
+Sep 3, Jump Trading 1st:
+- "不需要准备"准备都是骗人的，一定要在接触之前(包括了解信息的meeting/chat)，通宵投入地了解公司
