@@ -9,7 +9,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Last updated:</p>
-    <p>June 24, 2025</p>
+    <p>Sep 12, 2025</p>
 news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
