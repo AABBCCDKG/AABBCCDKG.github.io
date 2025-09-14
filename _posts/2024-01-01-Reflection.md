@@ -23,3 +23,7 @@ Aug 28, TikTok Search Ads NG Sec:
 
 Sep 3, Jump Trading 1st:
 - "不需要准备"准备都是骗人的，一定要在接触之前(包括了解信息的meeting/chat)，通宵投入地了解公司
+
+Sep 13, 千禧年:
+- OA尽量用Python, OA本身比较难，先保证能过关，通常来说python比C++需要的代码少很多
+- 擦一擦屏幕
