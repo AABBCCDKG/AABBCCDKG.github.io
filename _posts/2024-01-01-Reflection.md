@@ -16,7 +16,7 @@ Sep 1, TikTok Search Ads NG HM:
     ```
 - 静态类型检查提示 (Pyright 红线)，例如返回类型被推断成 Optional 导致 .val 被标红，但实际运行完全正常
 
-- 简历匹配极其重要，甚至比Coding还重要。每次面试时，至少有一个通宵来定制简历
+- 简历匹配极其重要，甚至比Coding还重要。每次面试时，至少有一个通宵来定制简历(否则在Final Round死的概率太高了)
 
 
 Aug 28, TikTok Search Ads NG Sec:
