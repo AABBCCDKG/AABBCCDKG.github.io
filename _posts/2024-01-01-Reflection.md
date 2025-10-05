@@ -33,4 +33,22 @@ Oct 4, Stripe Mock:
 - 记得消息免打扰
 - 手机不要放在中间，放在左边，不然会阻挡右边运行结果的显示
 - 面试前一天，要找人mock一下，可以发现很多问题
+- Self-introduction不要太长，留时间给coding
+```
+Hi, I’m Bruce, a Computer Science student at Purdue University, graduating in December 2026.
+I’m currently a Software Engineer Intern at Amazon Web Services FinTech, where I work on scalable systems and production-grade infrastructure.
+Previously, I interned at the Bank of China, building a distributed symbolic-regression engine in Java to model user behaviors and improve ad targeting.
+At Purdue, I’m also part of the Aerial Robotics Team and the AI Lab, where I build inference platforms and physics-informed ML pipelines.
+I really enjoy developing reliable, high-impact systems — which is why I’m excited about Stripe’s mission to build financial infrastructure that powers the internet economy.
+```
+- 思考时: 讲话越快越好，讲的慢，别人会觉得你可能思考的慢，而不是你在思考。思考的时候，说的话不一定是要全部正确，所以不用先去小心翼翼确认，再说这句话。
+- Coding时，边讲边写:
+    - 当是OOD题目，每定义一个函数后，讲一下函数是在做什么，(瞄一眼怎么实现的，也大概说一下)，最重要，因为OOD的代码量通常比较多，有时候不一定来得及每写一行就讲一下，而且OOD的话，很多时候会遇到你不了解的方法，所以没写一行就讲一下这行在做什么，不太理智
+    - 当是算法题，代码量通常比较少，尽量每写一行，就讲一讲是在做什么。一共也就一个函数，也没必要讲整个函数是在做什么
+
+
+
+
+
+    
 
