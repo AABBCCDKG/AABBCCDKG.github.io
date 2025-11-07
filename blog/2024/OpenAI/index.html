@@ -473,7 +473,6 @@
     
     <span class="n">root</span><span class="p">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="sh">"</span><span class="s">2</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">3</span><span class="sh">"</span><span class="p">]</span>
     <span class="n">child1</span><span class="p">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="sh">"</span><span class="s">4</span><span class="sh">"</span><span class="p">]</span>
-    
     <span class="c1"># Test count
 </span>    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Starting count...</span><span class="sh">"</span><span class="p">)</span>
     <span class="n">root</span><span class="p">.</span><span class="nf">count</span><span class="p">()</span>
@@ -485,8 +484,71 @@
 <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">"</span><span class="s">__main__</span><span class="sh">"</span><span class="p">:</span>
     <span class="nf">main</span><span class="p">()</span>
 
-</code></pre></div></div> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">MachineTree</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="p">)</span>
+</code></pre></div></div> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">uuid</span>
+<span class="k">class</span> <span class="nc">MachineTree</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">nodeId</span><span class="p">,</span> <span class="n">children</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span> <span class="n">parent</span> <span class="o">=</span> <span class="bp">None</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">nodeId</span> <span class="o">=</span> <span class="n">nodeId</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">children</span> <span class="o">=</span> <span class="n">children</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">parent</span> <span class="o">=</span> <span class="n">parent</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">pending</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">result</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="n">request_id</span> <span class="o">=</span> <span class="nf">str</span><span class="p">(</span><span class="n">uuid</span><span class="p">.</span><span class="nf">uuid4</span><span class="p">())</span> <span class="c1"># 一个树一个
+</span>        <span class="c1"># nodeId 是节点的标识符号，request_id是通信的标识符号
+</span>        <span class="n">self</span><span class="p">.</span><span class="nf">receiveMessage</span><span class="p">({</span>
+            <span class="sh">'</span><span class="s">type</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">count_request</span><span class="sh">'</span><span class="p">,</span>
+            <span class="sh">'</span><span class="s">request_id</span><span class="sh">'</span><span class="p">:</span> <span class="n">request_id</span><span class="p">,</span>
+            <span class="sh">'</span><span class="s">from</span><span class="sh">'</span><span class="p">:</span> <span class="bp">None</span>
+        <span class="p">})</span>
+        <span class="k">return</span> <span class="n">requst_id</span>
+
+    <span class="k">def</span> <span class="nf">topology</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="n">request_id</span> <span class="o">=</span> <span class="nf">str</span><span class="p">(</span><span class="n">uuid</span><span class="p">.</span><span class="nf">uuid4</span><span class="p">())</span>
+        <span class="n">self</span><span class="p">.</span><span class="nf">receiveMessage</span><span class="p">({</span>
+            <span class="sh">'</span><span class="s">type</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">topology_request</span><span class="sh">'</span><span class="p">,</span>
+            <span class="sh">'</span><span class="s">request_id</span><span class="sh">'</span><span class="p">:</span> <span class="n">request_id</span><span class="p">,</span>
+            <span class="sh">'</span><span class="s">from</span><span class="sh">'</span><span class="p">:</span> <span class="bp">None</span>
+        <span class="p">})</span>
+        <span class="k">return</span> <span class="n">request_id</span>
+
+    <span class="k">def</span> <span class="nf">receiveMessage</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
+        <span class="n">msg_type</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="sh">'</span><span class="s">type</span><span class="sh">'</span><span class="p">]</span>
+        <span class="n">request_id</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="sh">'</span><span class="s">request_id</span><span class="sh">'</span><span class="p">]</span>
+
+        <span class="k">if</span> <span class="n">msg_type</span> <span class="ow">in</span> <span class="p">[</span><span class="sh">'</span><span class="s">count_request</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">topology_request</span><span class="sh">'</span><span class="p">]:</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">self</span><span class="p">.</span><span class="n">children</span><span class="p">:</span>
+                <span class="c1"># leaf node
+</span>                <span class="n">result</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">msg_type</span> <span class="o">==</span> <span class="sh">'</span><span class="s">count_request</span><span class="sh">'</span> <span class="k">else</span> <span class="p">{</span><span class="n">self</span><span class="p">.</span><span class="n">nodeId</span><span class="p">:{}}</span>
+                <span class="n">self</span><span class="p">.</span><span class="nf">_send_response</span><span class="p">(</span><span class="n">message</span><span class="p">[</span><span class="sh">'</span><span class="s">from</span><span class="sh">'</span><span class="p">],</span> <span class="n">request_id</span><span class="p">,</span> <span class="n">msg_type</span><span class="p">.</span><span class="nf">replace</span><span class="p">(</span><span class="sh">'</span><span class="s">request</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">response</span><span class="sh">'</span><span class="p">),</span> <span class="n">result</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># not leaf node
+</span>                <span class="n">self</span><span class="p">.</span><span class="n">pending</span><span class="p">[</span><span class="n">request_id</span><span class="p">]</span> <span class="o">=</span> <span class="nf">len</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">children</span><span class="p">)</span> 
+                <span class="c1"># 等待多少个子节点回复
+</span>                <span class="c1"># 如果节点有三个子节点，pending[request_id] = 3
+</span>                <span class="c1"># 收到一个回复, pending[request_id] -= 1
+</span>                <span class="n">self</span><span class="p">.</span><span class="n">results</span><span class="p">[</span><span class="n">request_id</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+                <span class="k">for</span> <span class="n">child</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="n">children</span><span class="p">:</span>
+                    <span class="nf">sendAsyncMessage</span><span class="p">(</span><span class="n">child</span><span class="p">,</span> <span class="p">{</span>
+                        <span class="sh">'</span><span class="s">type</span><span class="sh">'</span><span class="p">:</span> <span class="n">msg_type</span><span class="p">,</span>
+                        <span class="sh">'</span><span class="s">request_id</span><span class="sh">'</span><span class="p">:</span> <span class="n">request_id</span><span class="p">,</span>
+                        <span class="sh">'</span><span class="s">from</span><span class="sh">'</span><span class="p">:</span> <span class="n">self</span><span class="p">.</span><span class="n">nodeId</span>
+                    <span class="p">})</span>
+        <span class="k">elif</span> <span class="n">msg_type</span> <span class="ow">in</span> <span class="p">[</span><span class="sh">'</span><span class="s">count_response</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">topology_response</span><span class="sh">'</span><span class="p">]:</span>
+            <span class="n">self</span><span class="p">.</span><span class="n">results</span><span class="p">[</span><span class="n">request_id</span><span class="p">][</span><span class="n">message</span><span class="p">[</span><span class="sh">'</span><span class="s">from</span><span class="sh">'</span><span class="p">]]</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="sh">'</span><span class="s">result</span><span class="sh">'</span><span class="p">]</span>
+            <span class="n">self</span><span class="p">.</span><span class="n">pending</span><span class="p">[</span><span class="n">request_id</span><span class="p">]</span> <span class="o">-=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">self</span><span class="p">.</span><span class="n">pending</span><span class="p">[</span><span class="n">request_id</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">msg_type</span> <span class="o">==</span> <span class="sh">'</span><span class="s">count_response</span><span class="sh">'</span><span class="p">:</span>
+                    <span class="n">total</span> <span class="o">=</span> <span class="nf">sum</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">results</span><span class="p">[</span><span class="n">request_id</span><span class="p">].</span><span class="nf">values</span><span class="p">())</span> <span class="o">+</span> <span class="mi">1</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">total</span> <span class="o">=</span> <span class="p">{</span><span class="n">self</span><span class="p">.</span><span class="n">nodeId</span><span class="p">:</span> <span class="p">{}}</span>
+                    <span class="k">for</span> <span class="n">child_topo</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="n">results</span><span class="p">[</span><span class="n">request_id</span><span class="p">].</span><span class="nf">values</span><span class="p">():</span>
+                        <span class="n">total</span><span class="p">[</span><span class="n">self</span><span class="p">.</span><span class="n">nodeId</span><span class="p">].</span><span class="nf">update</span><span class="p">(</span><span class="n">child_topo</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">root</span> <span class="o">=</span> <span class="nc">MachineTree</span><span class="p">(</span><span class="sh">'</span><span class="s">1</span><span class="sh">'</span><span class="p">,</span> <span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="sh">'</span><span class="s">2</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">3</span><span class="sh">'</span><span class="p">],</span> <span class="n">parent</span> <span class="o">=</span> <span class="bp">None</span><span class="p">)</span>
+    <span class="n">grandChildren</span> <span class="o">=</span> <span class="nc">MachineTree</span><span class="p">(</span><span class="sh">'</span><span class="s">4</span><span class="sh">'</span><span class="p">,</span> <span class="n">children</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span> <span class="n">parent</span> <span class="o">=</span> <span class="p">[</span><span class="sh">'</span><span class="s">2</span><span class="sh">'</span><span class="p">])</span>
+
 
 
 </code></pre></div></div> <h1 id="bq面试">BQ面试</h1> <h2 id="最高优先级问题">最高优先级问题</h2> <ol> <li>Failed project + 从失败中学到什么 - 几乎每轮都问</li> <li>Make impact out of your scope - 高频问题，体现leadership</li> <li>最大的achievement - 标准问题</li> <li>如何解决conflict - 经典BQ问题</li> <li>为什么选择OpenAI + 对AI的看法 - 公司特定问题</li> </ol> <h2 id="中等优先级问题">中等优先级问题</h2> <ol> <li>Lead的项目 + 遇到的挑战 - 结合deep dive准备</li> <li>个人项目经历 - 展示主动性</li> <li>如何handle stress和move fast - OpenAI节奏很快</li> </ol> <h2 id="准备策略">准备策略</h2> <p>回答格式： • 准备30秒精炼版本 + 可展开的详细版本 • 使用STAR方法，强调可量化结果 • 重点突出execution和leadership能力</p> <p>关键特质展示： • 快速迭代和执行能力 • 在高压环境下的表现 • 跨团队协作能力 • 从失败中快速学习的能力</p> <p>注意事项： • 面试官可能时间紧张，要准备被打断 • 强调business value而非纯技术细节 • 体现对AI safety的思考</p> <h2 id="q1-tell-me-about-a-failed-project-and-what-you-learned-from-it">Q1: Tell me about a failed project and what you learned from it</h2> <h3 id="逻辑框架--logic-framework">逻辑框架 | Logic Framework</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>设计系统 → 过度复杂 → 性能问题 → 重新简化 → 效果改善 → 经验教训
