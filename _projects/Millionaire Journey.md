@@ -4,7 +4,7 @@ title: Millionaire Journey
 description: Let's become millionaires!
 img: assets/img/2030.png
 importance: 1
-category: work
+category: fun
 related_publications: true
 ---
 # 2025
