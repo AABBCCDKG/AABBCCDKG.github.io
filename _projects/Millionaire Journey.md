@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Millionaire Journey
-description: Documenting my path toward financial freedom and wealth-building.
+description: Let's become millionaire!
 img: assets/img/2030.png
 importance: 1
 category: work
