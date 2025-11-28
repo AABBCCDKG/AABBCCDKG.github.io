@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Millionaire Journey
-description: Let's become millionaire!
+description: Let's become millionaires!
 img: assets/img/2030.png
 importance: 1
 category: work
 related_publications: true
 ---
-# 2026
+# 2025
 Dec 1: 
