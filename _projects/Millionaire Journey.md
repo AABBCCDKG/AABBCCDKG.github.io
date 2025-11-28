@@ -8,4 +8,4 @@ category: work
 related_publications: true
 ---
 # 2026
-Dec 1: 15,647.27  
+Dec 1: 
