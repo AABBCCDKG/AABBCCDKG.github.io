@@ -8,7 +8,7 @@ category: fun
 related_publications: true
 ---
 # 2025
-Dec 1: $17k
+Dec 1: $19k
 
 # 2026:
 Jan 1: 
