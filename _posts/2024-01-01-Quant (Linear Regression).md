@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Quant
-date: 2024-01-01 00:22:13
+title: Quant (Linear Regression)
+date: 2024-01-01 00:12:13
 description: Reflection on Interview
 tags: LeetCode
 categories: LeetCode
