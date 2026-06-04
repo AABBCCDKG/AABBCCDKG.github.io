@@ -1968,3 +1968,195 @@ appreciate the quantitative approach: form a hypothesis, backtest it against his
 only deploy when the evidence supports it. As a software engineer at TikTok, I work with data
 and code every day. I want to apply those skills to a field where the feedback loop is direct —
 your research either makes money or it doesn’t.
+
+---
+
+# Appendix A：2026-04-29 Inference 深度复盘
+
+> 这一章是和 Claude 一对一拷问后整理的，专门攻击 OLS inference 中容易翻车的概念点。每个小节末尾的 Anki 卡是必须 recall 化的。
+
+## A.1 Error term ($u_i$) vs Residual ($\hat{u}_i$)
+
+| 项 | 公式 | 性质 |
+|---|---|---|
+| Error term $u_i$ | $y_i - (\beta_0 + \beta_1 X_i)$ | population level，**永远不知道** |
+| Residual $\hat{u}_i$ | $y_i - (\hat{\beta}_0 + \hat{\beta}_1 X_i)$ | sample level，**可以算出来** |
+
+关系式：$\hat{u}_i = u_i + (\beta_0 - \hat{\beta}_0) + (\beta_1 - \hat{\beta}_1) X_i$
+
+**为什么这个区分对面试关键**：S&W 假设（如 $E[u|X]=0$、homoskedasticity）是说在 $u_i$ 上的，但你只能用 $\hat{u}_i$ 做诊断（残差图、White test 等）。Residual 是 error 的 proxy。
+
+## A.2 为什么 ESS = $\sum(\hat{y}_i - \bar{y})^2$ 用平均值不用真实值？
+
+核心：$\bar{y}$ 是 "无信息 baseline"——不知道 X 时的最优常数预测。
+
+$$\underbrace{\sum(y_i - \bar{y})^2}_{\text{TSS}} = \underbrace{\sum(\hat{y}_i - \bar{y})^2}_{\text{ESS}} + \underbrace{\sum(y_i - \hat{y}_i)^2}_{\text{RSS}}$$
+
+OLS 一阶条件保证交叉项 = 0（残差与拟合值正交、残差均值为零，**仅在含截距项时成立**）。所以三项必须以 $\bar{y}$ 为共同参照。
+
+## A.3 R² = ESS/TSS（不是 RSS/TSS！）
+
+陷阱直觉："RSS 涉及真实值，应该是它做分子" → **错**。
+
+- RSS = "失败量"（未解释的）
+- ESS = "成功量"（解释的）
+- TSS = ESS + RSS
+
+$$R^2 = \frac{\text{ESS}}{\text{TSS}} = 1 - \frac{\text{RSS}}{\text{TSS}}$$
+
+口诀：完美模型 RSS=0 → 应得 R²=1。如果 R²=RSS/TSS，完美模型反而 R²=0，矛盾。
+
+## A.4 两个极端：ESS = 0 vs ESS = TSS
+
+| 情况 | 含义 | R² |
+|---|---|---|
+| ESS = 0（$\hat{y}_i \equiv \bar{y}$）| 拟合线 = 水平 baseline | 0 |
+| ESS = TSS（$\hat{y}_i = y_i$）| 拟合线穿过每个点 | 1 |
+
+**易错点**：ESS=TSS 不是"和 baseline 一样"，而是"完美拟合"。
+
+## A.5 β̂ 是加权样本均值（CLT 直接作用）
+
+OLS 公式可以写成：
+
+$$\hat{\beta} = \sum_i w_i y_i, \quad w_i = \frac{X_i - \bar{X}}{\sum_j (X_j - \bar{X})^2}$$
+
+代入 $y_i = \beta_0 + \beta X_i + u_i$：$\hat{\beta} = \beta + \sum w_i u_i$
+
+→ $\hat{\beta} - \beta$ 是 n 个误差项的加权平均 → **CLT 直接作用**
+
+$$\hat{\beta} \approx N\left(\beta,\ \frac{\sigma^2}{\sum(X_i - \bar{X})^2}\right)$$
+
+**关键洞察**：β̂ 不是单个观测值，它本身就是"那个被 CLT 驯化的均值"。结构上对应经典 t-test 里的 ȳ，不是单个 $y_i$。
+
+## A.6 Variance of 谁？三层结构
+
+```
+Population level（不变）
+  σ² = Var(uᵢ): 单个误差项的方差
+  Var(β) = 0（β 是常数）
+
+Estimator level（随样本量减小）
+  Var(ȳ) = σ²/n
+  Var(β̂) = σ²/Σ(Xᵢ-X̄)²
+
+Test statistic level
+  t = (β̂ - β₀) / SE(β̂)
+  分母必须是 SE(β̂)，不是 σ
+```
+
+经典推导：$\text{Var}(\bar{y}) = \frac{1}{n^2} \cdot n\sigma^2 = \sigma^2/n$（独立性 + 平均化）。
+
+Regression 平行：$\text{Var}(\hat{\beta}) = \sum w_i^2 \cdot \sigma^2 = \sigma^2/\sum(X_i - \bar{X})^2$。
+
+## A.7 自由度 df = n - k
+
+t-stat 服从 $t_{n-k}$（k = 估计的参数个数，含截距）。
+
+$$\hat{\sigma}^2 = \frac{\text{RSS}}{n-k}$$
+
+- 几何：残差向量在与 X 张成空间正交的 (n-k) 维子空间
+- 极端例子：n=k=2 时直线必然完美穿过两点，RSS=0，无法估 σ²
+- "n-k 修正" 保证 $E[\hat{\sigma}^2] = \sigma^2$（无偏）
+- 大样本（df > 30）下 $t_{n-k} \approx N(0,1)$，可用 z 近似
+
+## A.8 One-tailed vs Two-tailed（不要相乘！）
+
+H₁ 决定方向，**不是默认右边**：
+
+| 类型 | H₀ | H₁ | 临界值 (α=0.05) |
+|---|---|---|---|
+| Two-tailed | β = 0 | β ≠ 0 | 1.96 |
+| One-tailed (右) | β ≤ 0 | β > 0 | 1.645 |
+| One-tailed (左) | β ≥ 0 | β < 0 | -1.645 |
+
+**互斥事件相加**（不是相乘！）：
+
+$$P(|T| > c) = P(T > c) + P(T < -c) = 2 \cdot P(T > c)$$
+
+68-95-99.7 经验法则：±1σ→68%, ±1.96σ→95%, ±2.58σ→99%, ±3σ→99.7%
+
+**默认 two-tailed**（保守、避免 p-hacking、所有软件默认）。
+
+## A.9 t = 2 的双尾 vs 单尾 p-value
+
+- 双尾 p ≈ 4.55%（marginal 显著，刚到 5% 边界）
+- 单尾 p ≈ 2.28%（明显 < 5%，更显著）
+
+单尾 p 是双尾 p 的一半。单尾不是"更不容易"，而是"更容易"——前提是事先承诺方向。
+
+## A.10 Hypothesis Test vs Confidence Interval（一回事的两种问法）
+
+两者**永远不知道 β**，都是从 β̂ 出发推断 β：
+
+| | HT | CI |
+|---|---|---|
+| 输入 | 候选 β₀ | confidence level (95%) |
+| 输出 | reject / fail to reject | 区间 [β̂ - 1.96·SE, β̂ + 1.96·SE] |
+| 信息量 | 单点 yes/no | 全部 β₀ 的检验结果 |
+
+**对偶等价**：
+
+$$\beta_0 \in \text{95\% CI} \iff \text{5\% 水平下不能拒绝 H}_0: \beta = \beta_0$$
+
+CI 端点处恰好 p-value = α = 0.05。
+
+## A.11 95% CI 的 frequentist 解读
+
+❌ 错："β 有 95% 概率在 [a, b]"
+✅ 对："如果重复抽样很多次，95% 的生成区间会包含真实 β"
+
+随机的是**区间**（每次样本不同会给出不同区间），不是 β（β 是固定常数）。
+
+类比：飞镖命中率 95% ≠ "这一镖有 95% 概率命中"——程序属性 vs 单次结果属性。
+
+## A.12 p-value 的正确解读
+
+✅ 对：p = P(数据这么极端 | H₀ 真)
+❌ 错：p = P(H₀ 真 | 数据)
+
+后者需要贝叶斯（先验 + 似然）。在 frequentist 框架里 H₀ 没有"概率"。
+
+面试钓鱼：p = 0.04 ≠ "H₀ 4% 概率为真"。正确措辞："在 H₀ 下看到这么极端及更极端结果的概率是 4%，证据反对 H₀"。
+
+## A.13 三个相关但不同的概率
+
+| 名称 | 数值（典型）| 是什么 | 何时确定 |
+|---|---|---|---|
+| α | 0.05 | 误判 H₀ 上限 | 测试前选 |
+| Confidence level | 95% (= 1-α) | CI 程序长期成功率 | 测试前选 |
+| p-value | 算出来 | 数据在 H₀ 下的极端度 | 测试后算 |
+
+不能互相转换，但通过 CI 端点连接。
+
+---
+
+# Appendix B：本次复盘 Anki 卡总账
+
+> 这些卡必须强制 **口述 recall**，不能看着背。每张卡先合上答案，对空气说一遍，再看答案校对。
+
+## B 组（Inference 概念修正）
+
+1. Error term $u_i$ vs Residual $\hat{u}_i$ 的区别是什么？为什么面试要分清？
+2. ESS 公式为什么用 $\bar{y}$ 不用 $y_i$？写出 TSS=ESS+RSS 的推导关键。
+3. R² = ESS/TSS 还是 RSS/TSS？解释直觉为什么不是后者。
+4. ESS=0 和 ESS=TSS 分别对应什么极端情况？
+5. β̂ 是 yᵢ 的样本观测值还是样本均值类的统计量？这个区分为什么重要？
+6. σ²、Var(β̂)、Var(β) 三者的层级关系？哪个是 0、哪个随 n 变？
+7. 推导 Var(ȳ) = σ²/n。说出每一步用了什么性质。
+8. 推导 Var(β̂) = σ²/Σ(Xᵢ-X̄)²。这个分母直觉是什么？
+9. t-stat 服从什么分布？为什么不是 N(0,1)？
+10. 自由度 n-k 的几何意义和无偏性意义。
+11. Two-tailed vs One-tailed test 由谁决定？默认哪个？
+12. P(|T|>c) 是相加还是相乘？为什么？
+13. 记住四个临界值：α=0.05/0.01 双尾/单尾。
+14. t=2 的双尾和单尾 p-value 各是多少？
+15. HT 和 CI 的等价关系是什么？
+16. 95% CI 的正确 frequentist 解读？常见错解？
+17. p-value 的正确解读？错解读为什么错？
+18. α、confidence level、p-value 三者何时确定、属于什么层面？
+
+## C 组（OLS 推断流程口述题）
+
+19. 不看笔记，对空白页讲 3 分钟："从 sampling distribution 到 t-stat 拒绝 H₀ 的完整链条"。如果讲得磕巴，那就是 recall 没建立。
+20. 用身高-体重例子，解释 β̂ 是 yᵢ 加权平均，且加权系数只依赖 X。
