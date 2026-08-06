@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "format": "prettier README.md _config.yml _pages _projects _includes .github/workflows --write",
+    "format:check": "prettier README.md _config.yml _pages _projects _includes .github/workflows --check"
+  },
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "1.4.0",
     "prettier": "3.1.1"
