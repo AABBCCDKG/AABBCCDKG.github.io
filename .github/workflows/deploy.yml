@@ -57,7 +57,9 @@ jobs:
         run: |
           test -f _site/index.html
           test -f _site/assets/img/wechat-qr.jpg
-          grep -F 'Quantitative Research' _site/index.html
+          grep -F 'Selected Personal Projects' _site/index.html
+          grep -F 'World Cup Forecasting' _site/index.html
+          grep -F 'TikTok / ByteDance' _site/index.html
           grep -F 'wechat-qr.jpg?' _site/index.html
           test "$(grep -c 'id="WeChatBtn"' _site/index.html)" -eq 1
           test "$(grep -c 'const modal = document.getElementById' _site/index.html)" -eq 1

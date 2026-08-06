@@ -2,26 +2,26 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Bruce Wang
-first_name: Bruce
+title: blank
+first_name: Dong
 middle_name:
-last_name: Wang
+last_name: WANG
 email: brucew.0229@gmail.com
 author:
-  name: Bruce Wang
+  name: Dong Wang
   email: brucew.0229@gmail.com
 description: >
-  Bruce Wang is a quantitative research and research engineering candidate
-  building auditable forecasting, point-in-time data, and numerical systems.
+  Dong Wang's personal website, projects, research, and software engineering
+  work.
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>; theme
   adapted from <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-keywords: quantitative research, research engineering, statistical modeling, forecasting, Python, C++
+keywords: Dong Wang, software engineering, machine learning, quantitative research, projects, Purdue
 lang: en
 timezone: America/Los_Angeles
 icon: favicon.png
 
-url: https://AABBCCDKG.github.io # the base hostname & protocol for your site
+url: https://aabbccdkg.com # the base hostname & protocol for your site
 baseurl:
 last_updated: false
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -62,7 +62,7 @@ acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
 dblp_url: # your DBLP profile url
-discord_id:
+discord_id: "1192920234429010008"
 facebook_id: # your facebook id
 flickr_id: # your flickr id
 github_username: AABBCCDKG
@@ -76,7 +76,7 @@ lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: dong-bruce-wang-4463a62a8
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-medium_username:
+medium_username: wangdong0502
 orcid_id: # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
@@ -100,7 +100,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  Open to quantitative research and research engineering opportunities.
+  Feel free to contact me!😉
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

@@ -5,7 +5,7 @@ require "pathname"
 require "uri"
 
 root = Pathname(ARGV.fetch(0, "_site")).expand_path
-site_origin = "https://aabbccdkg.github.io"
+site_origin = "https://aabbccdkg.com"
 failures = []
 document_cache = {}
 stylesheet_paths = []

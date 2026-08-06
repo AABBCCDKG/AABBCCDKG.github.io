@@ -1,54 +1,52 @@
 ---
 layout: about
-title: Home
-seo_title: Quantitative Research and Research Engineering
-description: Quantitative research portfolio focused on auditable forecasting, point-in-time data, statistical modeling, and reliable numerical software.
+title: About
+seo_title: Dong Wang
+description: Dong Wang's personal website, projects, research, and software engineering work.
 permalink: /
-subtitle: Quantitative Research · Statistical Modeling · Research Engineering
 
 profile:
   align: right
   image: personal.jpg
   image_circular: true
   more_info: >
-    <p><strong>Purdue Computer Science</strong></p>
-    <p>Python · C++ · Statistical Research</p>
+    <p>Last updated:</p>
+    <p>Aug 6, 2026</p>
 news: false
 social: true
 ---
 
-I am preparing for quantitative research and research engineering roles. I am
-most interested in problems where probability, statistical modeling, careful
-data timing, and reliable software need to work together.
+Hi 👋 I’m Dong. I graduated from Purdue University with a B.S. in Computer
+Science after completing 93% of the degree requirements in 1.5 years. Before
+Purdue, I studied Electrical and Computer Engineering at Northeastern
+University (China), where I ranked 2nd in a cohort of 290.
 
-This site emphasizes reproducible project evidence: chronological evaluation,
-point-in-time controls, explicit assumptions, deterministic tests, and clear
-boundaries around what results do—and do not—demonstrate.
+I’m a Software Engineer at TikTok / ByteDance working on search recommendation
+and ranking systems. Previously, I interned at Amazon Web Services and Bank of
+China. I also conducted [physics-informed deep learning
+research](https://royal-celestite-49a.notion.site/Motion-Prediction-through-Physical-Laws-b75fba68cf2f414e9ebd9f84c0db00d7)
+under [Prof. Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/) at Purdue AI
+Lab, joined the Purdue Aerial Robotics Team, and participated in Y Combinator's
+AI Startup School.
 
-## Selected Quantitative Work
+---
 
-- **[World Cup Forecasting]({% link _projects/01-world-cup-forecasting.md %})** —
-  pre-game 1X2 probability models with strictly chronological walk-forward
-  evaluation, calibration diagnostics, Elo/Davidson and Dixon–Coles baselines.
-- **[Narrative Alpha]({% link _projects/02-narrative-alpha.md %})** —
-  point-in-time infrastructure for turning public investment narratives into
-  falsifiable research hypotheses without using future information.
-- **[Quant Paper Digest]({% link _projects/03-quant-paper-digest.md %})** —
-  a tested workflow for discovering, curating, and rendering quantitative
-  finance research with both mathematical and plain-English explanations.
-- **[SmartGA]({% link _projects/04-smart-ga.md %})** —
-  a C++20 genetic algorithm for discovering interpretable mathematical
-  expressions, with reproducible runs and installable CMake packaging.
+🌱 **Selected Personal Projects:**
 
-The project pages document implemented software and validation boundaries.
-Narrative Alpha does not claim validated alpha, returns, or live trading
-performance. World Cup evaluation metrics depend on the available data
-snapshot and are not presented as investment results.
-
-## Research Interests
-
-I focus on probability, stochastic processes, regression, forecasting, and
-algorithmic problem solving. I prefer derivations, small numerical examples,
-and explicit assumptions over memorized formulas.
-
-For code, research notes, or recruiting conversations, use the links below.
+- ⚽ [World Cup Forecasting]({% link _projects/01-world-cup-forecasting.md %}):
+  Builds calibrated pre-game probabilities with chronological walk-forward
+  evaluation.
+- 🧭 [Narrative Alpha]({% link _projects/02-narrative-alpha.md %}): Turns
+  time-stamped public investment narratives into auditable, point-in-time
+  research signals.
+- 📚 [Quant Paper Digest]({% link _projects/03-quant-paper-digest.md %}):
+  Discovers and explains recent quantitative-finance papers in mathematical and
+  plain-English views.
+- 🧬 [SmartGA]({% link _projects/04-smart-ga.md %}): Searches for interpretable
+  mathematical expressions with a reproducible C++20 genetic algorithm.
+- 🔁 [EchoGen]({% link _projects/05-echo-gen.md %}): Aggregates vision-language
+  model outputs into validated 2D physics-scene prototypes.
+- ✏️ [SketchTune](https://github.com/AABBCCDKG/clip_on_sketch): Fine-tunes CLIP
+  on the Sketchy dataset for sketch-image retrieval.
+- 📬 [Gmaillm](https://github.com/AABBCCDKG/gmaillm): Summarizes important
+  messages and filters noise with an AI-powered Gmail assistant.

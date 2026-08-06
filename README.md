@@ -1,8 +1,8 @@
-# Bruce Wang — Quantitative Research Portfolio
+# Dong Wang — Personal Website
 
-Source for [AABBCCDKG.github.io](https://aabbccdkg.github.io/), a personal site
-focused on quantitative research, statistical modeling, numerical systems, and
-research engineering.
+Source for [aabbccdkg.com](https://aabbccdkg.com/), a personal site
+covering software engineering, machine learning, research, and selected
+quantitative projects.
 
 ## Content
 
@@ -37,8 +37,9 @@ The generated site is written to `_site/`.
 
 A push to `master` runs `.github/workflows/deploy.yml`, builds and validates the
 Jekyll site, and publishes `_site/` to the `gh-pages` branch. Pull requests run
-the same build and generated-site validation without deployment. GitHub Pages
-serves the deployment branch at the repository root.
+the same build and generated-site validation without deployment. The generated
+site can also be uploaded directly to the `bruce-wang` Cloudflare Pages project,
+which serves the custom domain at [aabbccdkg.com](https://aabbccdkg.com/).
 
 ## Theme attribution
 
