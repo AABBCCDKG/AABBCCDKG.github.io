@@ -2,11 +2,11 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Selected quantitative research and research engineering projects.
+description: A growing collection of your cool projects.
 nav: true
-nav_order: 2
-display_categories: [quant-research, research-engineering]
-horizontal: true
+nav_order: 3
+display_categories: [work, fun]
+horizontal: false
 ---
 
 <!-- pages/projects.md -->

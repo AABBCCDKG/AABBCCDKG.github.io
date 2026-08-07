@@ -1,7 +1,5 @@
 {% if site.email %}
-  <a href="mailto:{{ site.email | encode_email }}" title="Email" aria-label="Email Dong Wang">
-    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-  </a>
+  <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
 {% if site.telegram_username %}
   <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram"></i></a>
@@ -43,14 +41,10 @@
   <a href="https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}" title="Scopus"><i class="ai ai-scopus"></i></a>
 {% endif %}
 {% if site.github_username %}
-  <a href="https://github.com/{{ site.github_username }}" title="GitHub" aria-label="Dong Wang on GitHub">
-    <i class="fa-brands fa-github" aria-hidden="true"></i>
-  </a>
+  <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
 {% endif %}
 {% if site.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" aria-label="Dong Wang on LinkedIn">
-    <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-  </a>
+  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
 {% endif %}
 {% if site.x_username %}
   <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
@@ -127,36 +121,13 @@
 {% if site.zotero_username %}
   <a href="https://www.zotero.org/{{ site.zotero_username }}" title="Zotero"><i class="ai ai-zotero"></i></a>
 {% endif %}
+{% if site.rss_icon %}
+  <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
+{% endif %}
 {% if site.wechat_qr %}
-  {% assign wechat_qr_path = site.wechat_qr | prepend: '/assets/img/' %}
-  <button
-    id="WeChatBtn"
-    class="social-icon-button"
-    type="button"
-    title="Show WeChat QR code"
-    aria-label="Show WeChat QR code"
-    aria-controls="WeChatMod"
-    aria-expanded="false"
-  >
-    <i class="fa-brands fa-weixin" aria-hidden="true"></i>
-  </button>
-  <dialog id="WeChatMod" class="wechat-modal" aria-labelledby="WeChatTitle" aria-describedby="WeChatHelp">
-    <div class="wechat-modal-content">
-      <button id="WeChatClose" class="wechat-modal-close" type="button" aria-label="Close WeChat QR code">&times;</button>
-      <h2 id="WeChatTitle" class="sr-only">WeChat QR code</h2>
-      <img
-        src="{{ wechat_qr_path | relative_url | bust_file_cache }}"
-        alt="WeChat QR code for Dong Wang"
-        id="WeChatQR"
-        width="1029"
-        height="1410"
-        loading="eager"
-        decoding="async"
-      >
-      <p id="WeChatHelp" class="wechat-modal-help">
-        Scan this QR code in WeChat, or email
-        <a href="mailto:{{ site.email | encode_email }}">{{ site.email }}</a>.
-      </p>
-    </div>
-  </dialog>
+  <a id="WeChatBtn" title="WeChat"><i class="fa-brands fa-weixin"></i></a>
+  <div id="WeChatMod" class="wechat-modal">
+    <img src="{{ site.wechat_qr | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
+  </div>
+  {% include scripts/wechatModal.liquid %}
 {% endif %}

@@ -7,9 +7,11 @@ $(document).ready(function () {
       $(this).removeClass("table-dark");
     }
 
-    // Avoid applying table styling inside cards.
+    // only select tables that are not inside an element with "news" (about page) or "card" (cv page) class
     if (
+      $(this).parents('[class*="news"]').length == 0 &&
       $(this).parents('[class*="card"]').length == 0 &&
+      $(this).parents('[class*="archive"]').length == 0 &&
       $(this).parents("code").length == 0
     ) {
       // make table use bootstrap-table

@@ -3,13 +3,10 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-.DS_Store
+.DS_store
+.ruby-version
 .tweet-cache
-_news_private/
-_posts_private/
-assets/json/resume.json
-managed_headcount.md
-*resume*.pdf
+Gemfile.lock
 assets/libs/
 node_modules/
 vendor

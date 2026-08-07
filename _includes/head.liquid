@@ -1,11 +1,6 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
-{% if site.wechat_qr and page.social %}
-  {% assign wechat_qr_path = site.wechat_qr | prepend: '/assets/img/' %}
-  <link rel="preload" as="image" href="{{ wechat_qr_path | relative_url | bust_file_cache }}" type="image/jpeg">
-{% endif %}
-
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link
@@ -27,6 +22,7 @@
 {% endif %}
 
 <!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link
   defer
   rel="stylesheet"
@@ -42,6 +38,11 @@
   media=""
   id="highlight_theme_light"
 >
+
+{% if page.toc and page.toc.sidebar %}
+  <!-- Sidebar Table of Contents -->
+  <link defer href="{{ '/assets/css/bootstrap-toc.min.css' | relative_url | bust_file_cache }}" rel="stylesheet">
+{% endif %}
 
 <!-- Styles -->
 

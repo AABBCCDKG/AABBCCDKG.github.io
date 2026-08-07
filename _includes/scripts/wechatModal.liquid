@@ -1,35 +1,18 @@
 {% if site.wechat_qr %}
   <!-- WeChat Modal -->
+
   <script>
-    (() => {
-      const modal = document.getElementById('WeChatMod');
-      const openButton = document.getElementById('WeChatBtn');
-      const closeButton = document.getElementById('WeChatClose');
-      if (!modal || !openButton || !closeButton) return;
+    var wechatModal = document.getElementById('WeChatMod');
+    var wechatBtn = document.getElementById('WeChatBtn');
 
-      const openModal = () => {
-        modal.showModal();
-        openButton.setAttribute('aria-expanded', 'true');
-        document.body.classList.add('modal-open');
-        closeButton.focus();
-      };
+    wechatBtn.onclick = function () {
+      wechatModal.style.display = 'block';
+    };
 
-      const closeModal = () => {
-        modal.close();
-        openButton.setAttribute('aria-expanded', 'false');
-        document.body.classList.remove('modal-open');
-        openButton.focus();
-      };
-
-      openButton.addEventListener('click', openModal);
-      closeButton.addEventListener('click', closeModal);
-      modal.addEventListener('click', (event) => {
-        if (event.target === modal) closeModal();
-      });
-      modal.addEventListener('cancel', (event) => {
-        event.preventDefault();
-        closeModal();
-      });
-    })();
+    window.onclick = function (event) {
+      if (event.target == wechatModal) {
+        wechatModal.style.display = 'none';
+      }
+    };
   </script>
 {% endif %}

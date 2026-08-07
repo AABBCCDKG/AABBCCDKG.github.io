@@ -2,76 +2,65 @@ name: Deploy site
 
 on:
   push:
-    branches: [master]
+    branches:
+      - master
+      - main
+    paths:
+      - "assets/**"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
+  pull_request:
+    branches:
+      - master
+      - main
+    paths:
+      - "assets/**"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  build-and-deploy:
-    if: github.ref == 'refs/heads/master'
-    runs-on: ubuntu-24.04
-    timeout-minutes: 20
-    permissions:
-      contents: write
-    concurrency:
-      group: pages-deployment
-      cancel-in-progress: true
-
+  deploy:
+    # available images: https://github.com/actions/runner-images#available-images
+    runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          persist-credentials: false
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b
-        with:
-          ruby-version: "3.4.10"
+          ruby-version: "3.2.2"
           bundler-cache: true
-
-      - name: Set up Node.js
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      - name: Update _config.yml ⚙️
+        uses: fjogeleit/yaml-update-action@main
         with:
-          node-version: "22"
-          cache: npm
-
-      - name: Install Node dependencies
-        run: npm ci
-
-      - name: Check formatting and Node dependencies
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "giscus.repo"
+          value: ${{ github.repository }}
+      - name: Install and Build 🔧
         run: |
-          npm run format:check
-          npm audit --audit-level=high
-
-      - name: Build Jekyll site
-        env:
-          JEKYLL_ENV: production
-        run: bundle exec jekyll build --trace
-
-      - name: Audit Ruby dependencies
-        run: bundle exec bundle-audit check --update
-
-      - name: Validate generated homepage
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+      - name: Purge unused CSS 🧹
         run: |
-          test -f _site/index.html
-          test -f _site/assets/img/wechat-qr.jpg
-          grep -F 'Selected Personal Projects' _site/index.html
-          grep -F 'World Cup Forecasting' _site/index.html
-          grep -F 'TikTok / ByteDance' _site/index.html
-          grep -F 'wechat-qr.jpg?' _site/index.html
-          test "$(grep -c 'id="WeChatBtn"' _site/index.html)" -eq 1
-          test "$(grep -c 'const modal = document.getElementById' _site/index.html)" -eq 1
-          file _site/assets/img/wechat-qr.jpg | grep -F 'JPEG image data'
-
-      - name: Verify local links and assets
-        run: bundle exec ruby bin/check_site.rb
-
-      - name: Deploy to gh-pages
-        uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+      - name: Deploy 🚀
+        if: github.event_name != 'pull_request'
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
           folder: _site
-          clean: true
-          single-commit: true
