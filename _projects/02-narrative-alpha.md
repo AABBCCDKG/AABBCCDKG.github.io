@@ -1,10 +1,16 @@
 ---
 layout: page
 title: Narrative Alpha
-description: Point-in-time infrastructure for testing public investment narratives.
+description: I’m testing whether public market narratives say anything useful before the outcome is known.
 importance: 2
 category: quant-research
+featured: true
+emoji: 🧭
+kicker: Research · Alternative data
+accent: violet
 github: https://github.com/AABBCCDKG/narrative-alpha
+repository_visibility: public
+tags: [Python, Point-in-time, Event studies]
 ---
 
 ## Research question

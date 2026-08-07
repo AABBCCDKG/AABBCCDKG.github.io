@@ -1,0 +1,48 @@
+{% assign heading_tag = include.heading_tag | default: 'h2' %}
+<article class="project-card project-card--{{ project.accent | default: 'blue' }}">
+  <header class="project-card__header">
+    <span class="project-card__emoji" aria-hidden="true">{{ project.emoji }}</span>
+    <div>
+      <p class="project-card__kicker">{{ project.kicker }}</p>
+      <{{ heading_tag }} class="project-card__title">
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      </{{ heading_tag }}>
+    </div>
+  </header>
+
+  <p class="project-card__description">{{ project.description }}</p>
+
+  {% if project.tags %}
+    <ul class="project-card__tags" aria-label="{{ project.title }} technologies">
+      {% for tag in project.tags %}
+        <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <footer class="project-card__footer">
+    <a class="project-card__details" href="{{ project.url | relative_url }}">
+      Project notes
+      <span aria-hidden="true">→</span>
+    </a>
+
+    {% if project.repository_visibility == 'public' and project.github %}
+      <a
+        class="project-card__repo"
+        href="{{ project.github }}"
+        aria-label="View {{ project.title }} on GitHub"
+        rel="external nofollow noopener"
+        target="_blank"
+      >
+        <i class="fa-brands fa-github" aria-hidden="true"></i>
+        GitHub
+      </a>
+    {% elsif project.repository_visibility == 'private' %}
+      <span class="project-card__repo project-card__repo--private" title="Code available on request">
+        <i class="fa-brands fa-github" aria-hidden="true"></i>
+        Private
+        <i class="fa-solid fa-lock" aria-hidden="true"></i>
+      </span>
+    {% endif %}
+  </footer>
+</article>
