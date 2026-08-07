@@ -12,7 +12,17 @@ profile:
   more_info: >
     <p>Last updated:</p>
     <p>Aug 6, 2026</p>
-news: false
+news: true
+latest_posts:
+  - date: Aug 25, 2025
+    title: Mock Interview(3), LeetCode
+    url: https://aabbccdkg.github.io/blog/2025/Mock-Interview(3)/
+  - date: Jul 19, 2025
+    title: Backtracking, LeetCode
+    url: https://aabbccdkg.github.io/blog/2025/Backtracking/
+  - date: Jul 18, 2025
+    title: Mock Interview(2), LeetCode
+    url: https://aabbccdkg.github.io/blog/2025/Mock-Interview(2)/
 social: true
 ---
 
@@ -33,20 +43,13 @@ AI Startup School.
 
 🌱 **Selected Personal Projects:**
 
-- ⚽ [World Cup Forecasting]({% link _projects/01-world-cup-forecasting.md %}):
-  Builds calibrated pre-game probabilities with chronological walk-forward
-  evaluation.
-- 🧭 [Narrative Alpha]({% link _projects/02-narrative-alpha.md %}): Turns
+- ⚽ [World Cup Forecasting](https://github.com/AABBCCDKG/world-cup): Builds
+  calibrated pre-game probabilities with chronological walk-forward evaluation.
+- 🧭 [Narrative Alpha](https://github.com/AABBCCDKG/narrative-alpha): Turns
   time-stamped public investment narratives into auditable, point-in-time
   research signals.
-- 📚 [Quant Paper Digest]({% link _projects/03-quant-paper-digest.md %}):
+- 📚 [Quant Paper Digest](https://github.com/AABBCCDKG/quant_paper_digest):
   Discovers and explains recent quantitative-finance papers in mathematical and
   plain-English views.
-- 🧬 [SmartGA]({% link _projects/04-smart-ga.md %}): Searches for interpretable
+- 🧬 [SmartGA](https://github.com/AABBCCDKG/SmartGA): Searches for interpretable
   mathematical expressions with a reproducible C++20 genetic algorithm.
-- 🔁 [EchoGen]({% link _projects/05-echo-gen.md %}): Aggregates vision-language
-  model outputs into validated 2D physics-scene prototypes.
-- ✏️ [SketchTune](https://github.com/AABBCCDKG/clip_on_sketch): Fine-tunes CLIP
-  on the Sketchy dataset for sketch-image retrieval.
-- 📬 [Gmaillm](https://github.com/AABBCCDKG/gmaillm): Summarizes important
-  messages and filters noise with an AI-powered Gmail assistant.

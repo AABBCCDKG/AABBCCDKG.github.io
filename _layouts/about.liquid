@@ -40,6 +40,29 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- News -->
+    {% if page.news %}
+      <h2>news</h2>
+      <div class="news"><p>No news so far...</p></div>
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts %}
+      <h2>latest posts</h2>
+      <div class="news">
+        <div class="table-responsive">
+          <table class="table table-sm table-borderless">
+            {% for post in page.latest_posts %}
+              <tr>
+                <th scope="row" style="width: 20%">{{ post.date }}</th>
+                <td><a class="news-title" href="{{ post.url }}">{{ post.title }}</a></td>
+              </tr>
+            {% endfor %}
+          </table>
+        </div>
+      </div>
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
