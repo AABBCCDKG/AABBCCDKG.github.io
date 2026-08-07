@@ -1,16 +1,9 @@
 ---
 layout: page
 title: Quant Paper Digest
-description: My weekly reading companion for new quant papers, with both the intuition and the math.
+description: A secure workflow for discovering and explaining new quantitative-finance research.
 importance: 3
 category: quant-research
-featured: true
-emoji: 📚
-kicker: Reading · Research automation
-accent: amber
-github: https://github.com/AABBCCDKG/quant_paper_digest
-repository_visibility: private
-tags: [Python, arXiv, MathJax]
 ---
 
 ## Purpose
@@ -30,4 +23,5 @@ a separate mathematical treatment.
 Paper selection and analysis remain explicit research steps; the renderer does
 not pretend to evaluate paper quality automatically.
 
-[View the repository](https://github.com/AABBCCDKG/quant_paper_digest)
+Repository access is available on request while the research package is being
+prepared for public release.

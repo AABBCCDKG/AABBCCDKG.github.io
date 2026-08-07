@@ -10,7 +10,8 @@ profile:
   image: personal.jpg
   image_circular: true
   more_info: >
-    <p>Updated <time datetime="2026-08-06">Aug 6, 2026</time></p>
+    <p>Last updated:</p>
+    <p>Aug 6, 2026</p>
 news: false
 social: true
 ---
@@ -28,23 +29,24 @@ under [Prof. Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/) at Purdue AI
 Lab, joined the Purdue Aerial Robotics Team, and participated in Y Combinator's
 AI Startup School.
 
-<section class="home-projects" aria-labelledby="selected-projects-title">
-  <div class="home-projects__heading">
-    <div>
-      <p class="section-eyebrow">A few things I have been building</p>
-      <h2 id="selected-projects-title">Selected projects</h2>
-    </div>
-    <a class="home-projects__all" href="{% link _pages/projects.md %}">
-      View all projects
-      <span aria-hidden="true">→</span>
-    </a>
-  </div>
+---
 
-{% assign featured_projects = site.projects | where: "featured", true | sort: "importance" %}
+🌱 **Selected Personal Projects:**
 
-  <div class="projects-grid projects-grid--featured">
-    {% for project in featured_projects %}
-      {% include project_card.liquid project=project heading_tag='h3' %}
-    {% endfor %}
-  </div>
-</section>
+- ⚽ [World Cup Forecasting]({% link _projects/01-world-cup-forecasting.md %}):
+  Builds calibrated pre-game probabilities with chronological walk-forward
+  evaluation.
+- 🧭 [Narrative Alpha]({% link _projects/02-narrative-alpha.md %}): Turns
+  time-stamped public investment narratives into auditable, point-in-time
+  research signals.
+- 📚 [Quant Paper Digest]({% link _projects/03-quant-paper-digest.md %}):
+  Discovers and explains recent quantitative-finance papers in mathematical and
+  plain-English views.
+- 🧬 [SmartGA]({% link _projects/04-smart-ga.md %}): Searches for interpretable
+  mathematical expressions with a reproducible C++20 genetic algorithm.
+- 🔁 [EchoGen]({% link _projects/05-echo-gen.md %}): Aggregates vision-language
+  model outputs into validated 2D physics-scene prototypes.
+- ✏️ [SketchTune](https://github.com/AABBCCDKG/clip_on_sketch): Fine-tunes CLIP
+  on the Sketchy dataset for sketch-image retrieval.
+- 📬 [Gmaillm](https://github.com/AABBCCDKG/gmaillm): Summarizes important
+  messages and filters noise with an AI-powered Gmail assistant.

@@ -1,15 +1,10 @@
 ---
 layout: page
 title: LinkedGram
-description: I rebuilt conflicting Go snippets into one working module for posts, profiles, follows, and feeds.
+description: A race-tested Go social-domain and persistence example.
 importance: 6
 category: research-engineering
-emoji: 🔗
-kicker: Go · Systems
-accent: cyan
 github: https://github.com/AABBCCDKG/LinkedGram
-repository_visibility: public
-tags: [Go, Concurrency, Persistence]
 ---
 
 ## Purpose

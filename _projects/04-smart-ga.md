@@ -1,16 +1,10 @@
 ---
 layout: page
 title: SmartGA
-description: I wanted to see whether a genetic algorithm could rediscover compact formulas from a few examples.
+description: C++20 genetic search for interpretable mathematical expressions.
 importance: 4
 category: research-engineering
-featured: true
-emoji: 🧬
-kicker: Search · Scientific computing
-accent: green
 github: https://github.com/AABBCCDKG/SmartGA
-repository_visibility: public
-tags: [C++20, Genetic algorithms, CMake]
 ---
 
 ## Purpose

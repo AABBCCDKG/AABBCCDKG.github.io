@@ -1,15 +1,10 @@
 ---
 layout: page
 title: EchoGen
-description: I built EchoGen to see whether an image could become a small, inspectable physics scene.
+description: Safe image-to-physics prototyping with a validated simulation DSL.
 importance: 5
 category: research-engineering
-emoji: 🔁
-kicker: Vision · Simulation
-accent: coral
 github: https://github.com/AABBCCDKG/EchoGen
-repository_visibility: public
-tags: [Python, AST parsing, Pymunk]
 ---
 
 ## Purpose
