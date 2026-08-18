@@ -29,7 +29,7 @@ social: true
 Hi 👋 I’m Dong. I graduated from Purdue University with a B.S. in Computer
 Science after completing 93% of the degree requirements in 1.5 years. Before
 Purdue, I studied Electrical and Computer Engineering at Northeastern
-University (China), where I ranked 2nd in a cohort of 290.
+University (China), where I ranked 2nd in a cohort of 120.
 
 I’m a Software Engineer at TikTok / ByteDance working on search recommendation
 and ranking systems. Previously, I interned at Amazon Web Services and Bank of
